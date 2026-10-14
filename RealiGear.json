@@ -1,0 +1,34 @@
+{
+  "RealiGear": {
+    "Lucky Charm": {
+      "Name": "Lucky Charm",
+      "Tier": 1,
+      "Description": "Reduces shop prices by 10%."
+    },
+    "Health Amulet": {
+      "Name": "Health Amulet",
+      "Tier": 2,
+      "Description": "Increases max HP by 50."
+    },
+    "Speed Boots": {
+      "Name": "Speed Boots",
+      "Tier": 3,
+      "Description": "Increases speed range by 1."
+    },
+    "Power Ring": {
+      "Name": "Power Ring",
+      "Tier": 4,
+      "Description": "Increases attack power by 20%."
+    },
+    "Defense Shield": {
+      "Name": "Defense Shield",
+      "Tier": 2,
+      "Description": "Increases defense by 10."
+    },
+    "Elemental Cloak": {
+      "Name": "Elemental Cloak",
+      "Tier": 3,
+      "Description": "Grants resistance to one element of choice."
+    }
+  }
+}

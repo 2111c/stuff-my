@@ -1,0 +1,100 @@
+{
+  "Pools": {
+    "basic": [
+      {"enemy": "Knife Thug", "amount": 2},
+      {"enemy": "Blik Office Suppressor", "amount": 1}
+    ],
+    "intermediate": [
+      {"enemy": "Bat Thug", "amount": 1},
+      {"enemy": "Pyric Solider", "amount": 1},
+      {"enemy": "Knife Thug", "amount": 1}
+    ],
+    "advanced": [
+      {"enemy": "Ice Assassin", "amount": 1},
+      {"enemy": "WOTB Samurai", "amount": 1}
+    ],
+    "elite": [
+      {"enemy": "Crystal Servant", "amount": 1},
+      {"enemy": "Ice Assassin", "amount": 1},
+      {"enemy": "WOTB Samurai", "amount": 1}
+    ],
+    "WOTB Average": [
+      {"enemy": "WOTB Samurai", "amount": 3}
+    ],
+    "High Rank Assassins": [
+      {"enemy": "WOTB Samurai", "amount": 2},
+      {"enemy": "WOTB Blugeoners", "amount": 1}
+    ],
+    "Shogun's Shadow": [
+      {"enemy": "Daehon - WOTB Shogun of the West", "amount": 1}
+    ],
+    "pyros": [
+      {"enemy": "Pyric Solider", "amount": 2}
+    ],
+    "knights": [
+      {"enemy": "Old Guillevien Knight", "amount": 2}
+    ],
+    "knights 1": [
+      {"enemy": "Old Guillevien Knight", "amount": 3}
+    ],
+    "highlevel pyros": [
+      {"enemy": "Pyric Solider", "amount": 4},
+      {"enemy": "Pyric Enforcer", "amount": 1}
+    ],
+    "spectres": [
+      {"enemy": "Ghoul", "amount": 5}
+    ],
+    "phantom parrade": [
+      {"enemy": "Ghoul", "amount": 3},
+      {"enemy": "Banquo - The Ghost Long Forgotten", "amount": 1}
+    ],
+    "the three witches": [
+      {"enemy": "Witch", "amount": 3}
+    ],
+    "Malcolm and Ross": [
+      {"enemy": "Malcolm - Noble Sword Artist", "amount": 1},
+      {"enemy": "Ross - Noble Sword Artist", "amount": 1}
+    ],
+    "pyro elite": [
+      {"enemy": "Pyric Solider", "amount": 5},
+      {"enemy": "Pyric Enforcer", "amount": 1},
+      {"enemy": "Pyric Sheild", "amount": 1}
+    ],
+    "Extinguishers - Fists": [
+      {"enemy": "Youth Class Extinguisher - Gloves", "amount": 3}
+    ],
+    "Extinguishers - Rapier": [
+      {"enemy": "Youth Class Extinguisher - Rapier", "amount": 3}
+    ],
+    "Extinguishers - Blades": [
+      {"enemy": "Youth Class Extinguisher - Blade", "amount": 3}
+    ],
+    "Extinguishers - Mixed": [
+      {"enemy": "Youth Class Extinguisher - Gloves", "amount": 1},
+      {"enemy": "Youth Class Extinguisher - Rapier", "amount": 1},
+      {"enemy": "Youth Class Extinguisher - Blade", "amount": 1}
+    ],
+    "Test of the Boss": [
+      {"enemy": "Youth Class Extinguisher - Gloves", "amount": 4},
+      {"enemy": "Infernal Over-xtinguisher - Arnold", "amount": 1}
+    ],
+    "Coal Army": [
+      {"enemy": "Coal Fighters", "amount": 3}
+    ],
+    "Back-water Bandits": [
+      {"enemy": "Knife Thug", "amount": 2},
+      {"enemy": "Bat Thug", "amount": 1}
+    ],
+    "Sketchy sailors": [
+      {"enemy": "Sailor", "amount": 3}
+    ],
+    "The Captain": [
+      {"enemy": "Sailor", "amount": 3},
+      {"enemy": "Captain", "amount": 1}
+    ],
+    "Chance Encounter": [
+      {"enemy": "Lenuff - Divinus", "amount": 1},
+      {"enemy": "Tybalt - Divinus", "amount": 1}
+    ]
+  }
+}

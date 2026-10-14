@@ -1,0 +1,840 @@
+{
+  "Floors": {
+    "Floor 1": {
+      "sections": [
+        {
+          "type": "encounters",
+          "pool": "basic"
+        },
+        {
+          "type": "occurrences",
+          "pool": "simple_traps"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "encounters",
+          "pool": "basic"
+        },
+        {
+          "type": "boss",
+          "enemy": "Bat Thug"
+        }
+      ]
+    },
+    "Floor 2": {
+      "sections": [
+        {
+          "type": "encounters",
+          "pool": "intermediate"
+        },
+        {
+          "type": "occurrences",
+          "pool": "elemental_checks"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "encounters",
+          "pool": "intermediate"
+        },
+        {
+          "type": "boss",
+          "enemy": "Pyric Solider"
+        }
+      ]
+    },
+    "Floor 3": {
+      "sections": [
+        {
+          "type": "encounters",
+          "pool": "advanced"
+        },
+        {
+          "type": "occurrences",
+          "pool": "complex_traps"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "encounters",
+          "pool": "advanced"
+        },
+        {
+          "type": "boss",
+          "enemy": "The Wise, Wild, and Wicked Headed man"
+        }
+      ]
+    },
+    "Floor 4": {
+      "sections": [
+        {
+          "type": "encounters",
+          "pool": "basic"
+        },
+        {
+          "type": "occurrences",
+          "pool": "final_challenges"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "encounters",
+          "pool": "elite"
+        },
+        {
+          "type": "boss",
+          "enemy": "Infernal Dragon"
+        }
+      ]
+    },
+    "Samurai Dojo": {
+      "sections": [
+        {
+          "type": "encounters",
+          "pool": "WOTB Average"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "encounters",
+          "pool": "High Rank Assassins"
+        },
+        {
+          "type": "occurrences",
+          "pool": "Spirited Shogun"
+        },
+        {
+          "type": "encounters",
+          "pool": "Shogun's Shadow"
+        }
+      ]
+    },
+    "Pyric Offence": {
+      "sections": [
+        {
+          "type": "encounters",
+          "pool": "pyros"
+        },
+        {
+          "type": "occurrences",
+          "pool": "elemental_checks"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "encounters",
+          "pool": "pyros"
+        },
+        {
+          "type": "boss",
+          "enemy": "Lenuff - Pyric Offense Captain"
+        }
+      ]
+    },
+    "The Castle Of Flames": {
+      "sections": [
+        {
+          "type": "encounters",
+          "pool": "pyros"
+        },
+        {
+          "type": "encounters",
+          "pool": "pyros"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "encounters",
+          "pool": "pyros"
+        },
+        {
+          "type": "occurrences",
+          "pool": "elemental_checks"
+        },
+        {
+          "type": "boss",
+          "enemy": "Lenuff - Pyric Offense Captain"
+        },
+        {
+          "type": "boss",
+          "enemy": "Macbeth - The 1st Harbinger Of Flames"
+        }
+      ]
+    },
+    "Story Mode 1": {
+      "sections": [
+        {
+          "type": "story",
+          "pool": "opening"
+        },
+        {
+          "type": "encounters",
+          "pool": "knights"
+        },
+        {
+          "type": "encounters",
+          "pool": "knights"
+        },
+        {
+          "type": "encounters",
+          "pool": "knights"
+        },
+        {
+          "type": "encounters",
+          "pool": "knights"
+        },
+        {
+          "type": "encounters",
+          "pool": "knights 1"
+        },
+        {
+          "type": "encounters",
+          "pool": "knights 1"
+        },
+        {
+          "type":"story",
+          "pool":"the pyros"
+        },
+        {
+          "type": "encounters",
+          "pool": "highlevel pyros"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "story",
+          "pool": "the pyros 1"
+        },
+        {
+          "type": "boss",
+          "enemy": "Lenuff - Pyric Offense Captain"
+        },
+        {
+          "type":"shop"
+        },
+        {
+          "type": "story",
+          "pool": "a spectral zone 1"
+        },
+        {
+          "type": "onrush",
+          "pool": "spectres"
+        },
+        {
+          "type":"story",
+          "pool":"a spectral zone 1.1"
+        },
+        {
+          "type": "onrush",
+          "pool": "spectres"
+        },
+        {
+          "type": "onrush",
+          "pool": "spectres"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type":"story",
+          "pool":"a spectral zone 1.2"
+        },
+        {
+          "type": "encounters",
+          "pool": "phantom parrade"
+        },
+        {
+          "type":"story",
+          "pool":"a spectral zone 1.3"
+        },
+        {
+          "type": "encounters",
+          "pool": "the three witches"
+        },
+        {
+          "type":"story",
+          "pool":"Warzone1"
+        },
+        {
+          "type": "encounters",
+          "pool": "pyros"
+        },
+        {
+          "type": "encounters",
+          "pool": "pyros"
+        },
+        {
+          "type": "encounters",
+          "pool": "knights 1"
+        },
+        {
+          "type": "encounters",
+          "pool": "knights 1"
+        },
+        {
+          "type": "encounters",
+          "pool": "knights 1"
+        },
+        {
+          "type": "encounters",
+          "pool": "knights 1"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "story",
+          "pool": "Warzone2"
+        },
+        {
+          "type": "encounters",
+          "pool": "Malcolm and Ross"
+        },
+        {
+          "type": "story",
+          "pool": "Approach the castle"
+        },
+        {
+          "type": "encounters",
+          "pool": "highlevel pyros"
+        },
+        {
+          "type": "encounters",
+          "pool": "pyro elite"
+        },
+        {
+          "type": "encounters",
+          "pool": "pyros"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "story",
+          "pool": "Deformalities 1"
+        },
+        {
+          "type": "boss",
+          "enemy": "Coal Giant"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "boss",
+          "enemy": "Infernal Dragon"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "story",
+          "pool": "Last Deformality 1"
+        },
+        {
+          "type": "boss",
+          "enemy": "Pyro Lord"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "story",
+          "pool": "The Throne Room"
+        },
+        {
+          "type": "boss",
+          "enemy": "Lenuff - Pyric Offense Captain"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "story",
+          "pool": "Before The Tyrant - Decisive Battle"
+        },
+        {
+          "type": "boss",
+          "enemy": "Macbeth - The 1st Harbinger Of Flames"
+        },
+        {
+          "type": "story",
+          "pool": "Onward1"
+        }
+      ]
+    },
+    "Boss Rush 1": {
+      "sections": [
+        {
+          "type": "boss",
+          "enemy": "Lenuff - Pyric Offense Captain"
+        },
+        {
+          "type": "encounters",
+          "pool": "phantom parrade"
+        },
+        {
+          "type": "encounters",
+          "pool": "the three witches"
+        },
+        {
+          "type": "encounters",
+          "pool": "Malcolm and Ross"
+        },
+        {
+          "type": "boss",
+          "enemy": "Macbeth - The 1st Harbinger Of Flames"
+        },
+        {
+          "type": "encounters",
+          "pool": "Test of the Boss"
+        },
+        {
+          "type": "boss",
+          "pool": "WOTB Path Of Wounding Commander"
+        },
+        {
+          "type": "boss",
+          "enemy": "Unknown Fan-Weilding Indiviual"
+        },
+        {
+          "type": "boss",
+          "enemy": "Memory - A Knight's Prime (BR)"
+        },
+        {
+          "type": "boss",
+          "enemy": "Lila - Sage of Memory"
+        }
+      ]
+    },
+    "VS Vin": {
+      "sections": [
+        {
+          "type": "boss",
+          "enemy": "Vin - The Diamond Commander"
+        }
+      ]
+    },
+    "VS Macbeth": {
+      "sections": [
+        {
+          "type": "boss",
+          "enemy": "Macbeth - The 1st Harbinger Of Flames"
+        }
+      ]
+    },
+    "Story Branch 1.1": {
+      "sections": [
+        {
+          "type": "story",
+          "pool": "Branch 1.1 Opening"
+        },
+        {
+          "type": "encounters",
+          "pool": "WOTB Average"
+        },
+        {
+          "type": "encounters",
+          "pool": "WOTB Average"
+        },
+        {
+          "type": "encounters",
+          "pool": "WOTB Average"
+        },
+        {
+          "type": "encounters",
+          "pool": "WOTB Average"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "story",
+          "pool": "The Extinguishers"
+        },
+        {
+          "type": "encounters",
+          "pool": "Extinguishers - Fists"
+        },
+        {
+          "type": "encounters",
+          "pool": "Extinguishers - Rapier"
+        },
+        {
+          "type": "encounters",
+          "pool": "Extinguishers - Blades"
+        },
+        {
+          "type": "encounters",
+          "pool": "Extinguishers - Mixed"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "story",
+          "pool": "Arnold Extinguisher"
+        },
+        {
+          "type": "encounters",
+          "pool": "Extinguishers - Fists"
+        },
+        {
+          "type": "encounters",
+          "pool": "Extinguishers - Fists"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "encounters",
+          "pool": "Test of the Boss"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "story",
+          "pool": "Blades and Punches"
+        },
+        {
+          "type": "encounters",
+          "pool": "WOTB Average"
+        },
+        {
+          "type": "encounters",
+          "pool": "WOTB Average"
+        },
+        {
+          "type": "encounters",
+          "pool": "WOTB Average"
+        },
+        {
+          "type": "encounters",
+          "pool": "WOTB Average"
+        },
+        {
+          "type": "encounters",
+          "pool": "WOTB Average"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "boss",
+          "enemy": "WOTB Path Of Wounding Commander"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "story",
+          "pool": "Coals"
+        },
+        {
+          "type": "encounters",
+          "pool": "Coal Army"
+        },
+        {
+          "type": "encounters",
+          "pool": "Coal Army"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "boss",
+          "enemy": "Vin - The Diamond Commander"
+        },
+        {
+          "type": "story",
+          "pool": "Onward1.1"
+        }
+      ]
+    },
+    "Story Branch 1.2": {
+      "sections": [
+        {
+          "type": "story",
+          "pool": "Branch 1.2 Opening"
+        },
+        {
+          "type": "onrush",
+          "pool": "F Sector Army Onrush"
+        },
+        {
+          "type": "onrush",
+          "pool": "F Sector Army Finale"
+        },
+        {
+          "type": "story",
+          "pool": "Enter W Sector"
+        },
+        {
+          "type": "encounters",
+          "pool": "Back-water Bandits"
+        },
+        {
+          "type": "encounters",
+          "pool": "Back-water Bandits"
+        },
+        {
+          "type": "encounters",
+          "pool": "Back-water Bandits"
+        },
+        {
+          "type": "encounters",
+          "pool": "Back-water Bandits"
+        },
+        {
+          "type": "story",
+          "pool": "Clouded Lady"
+        },
+        {
+          "type": "boss",
+          "enemy": "Unknown Fan-Weilding Indiviual"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "story",
+          "pool": "The Memoria 1"
+        },
+        {
+          "type": "special_boss",
+          "enemy": "Memory - A Knight's Prime",
+          "usable_combatants": [
+            "Macduff",
+            "Antonia",
+            "Romeo"
+          ],
+          "limit_burst": "Blade Of Remembrance",
+          "limit_burst_cost": {
+            "Charm": 3,
+            "Ice": 1
+          },
+          "skill_sequences": {
+            "default": [
+              "Stab",
+              "X Slash",
+              "X Slash",
+              "Momentum Slash",
+              "Defend"
+            ],
+            "affordable": [
+              "Stab",
+              "X Slash",
+              "Momentum Slash",
+              "Momentum Slash",
+              "Blade Of Remembrance"
+            ]
+          }
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "story",
+          "pool": "The Memoria 2"
+        },
+        {
+          "type": "encounters",
+          "pool": "Back-water Bandits"
+        },
+        {
+          "type": "encounters",
+          "pool": "Back-water Bandits"
+        },
+        {
+          "type": "encounters",
+          "pool": "Back-water Bandits"
+        },
+        {
+          "type": "encounters",
+          "pool": "Back-water Bandits"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "story",
+          "pool": "Lila of the Fans"
+        },
+        {
+          "type": "boss",
+          "enemy": "Lila - Sage of Memory"
+        },
+        {
+          "type": "story",
+          "pool": "Onward1.2"
+        }
+      ]
+    },
+    "Boss Onrush": {
+      "sections": [
+        {
+          "type": "onrush",
+          "pool": "Ten-coloured Tussle"
+        }
+      ]
+    },
+    "Story Mode 2": {
+      "sections": [
+        {
+          "type": "story",
+          "pool": "Opening 2"
+        },
+        {
+          "type": "onrush",
+          "pool": "The bus full of thugs"
+        },
+        {
+          "type": "story",
+          "pool": "The Boat"
+        },
+        {
+          "type": "encounters",
+          "pool": "Sketchy sailors"
+        },
+        {
+          "type": "encounters",
+          "pool": "Sketchy sailors"
+        },
+        {
+          "type": "encounters",
+          "pool": "Sketchy sailors"
+        },
+        {
+          "type": "encounters",
+          "pool": "Sketchy sailors"
+        },
+        {
+          "type": "encounters",
+          "pool": "The Captain"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "story",
+          "pool": "An Attack"
+        },
+        {
+          "type": "onrush",
+          "pool": "Pirates"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "story",
+          "pool": "Backup"
+        },
+        {
+          "type": "onrush",
+          "pool": "Birling and Co. Ship"
+        },
+        {
+          "type": "onrush",
+          "pool": "Birling and Co. Ship"
+        },
+        {
+          "type": "onrush",
+          "pool": "Birling and Co. Ship"
+        },
+        {
+          "type": "story",
+          "pool": "Blackout"
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "reselect",
+          "can't use": ["Romeo", "Macduff", "Racheal"]
+        },
+        {
+          "type": "onrush",
+          "pool": "Chain-Shopers"
+        },
+        {
+          "type": "onrush",
+          "pool": "Chain-Shopers"
+        },
+        {
+          "type": "story",
+          "pool": "Accusation"
+        },
+        {
+          "type": "boss",
+          "enemy": "W Sector: Anti-Theft Android",
+          "extra unit": "Joel"
+        },
+        {
+          "type": "reselect",
+          "can't use": ["Romeo", "Macduff"]
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "story",
+          "pool": "Jack Merridew"
+        },
+        {
+          "type": "special_boss",
+          "enemy": "Jack",
+          "usable_combatants": [
+            "Racheal"
+          ],
+          "skill_sequences": {
+            "default": [
+              "Knife Strike",
+              "Hunting",
+              "Hunting",
+              "Offensive Prowess",
+              "Guard"
+            ]
+          }
+        },
+        {
+          "type": "story",
+          "pool": "Reawakening"
+        },
+        {
+          "type": "onrush",
+          "pool": "Chain-Shopers"
+        },
+        {
+          "type": "onrush",
+          "pool": "Chain-Shopers"
+        },
+        {
+          "type": "reselect",
+          "can't use": []
+        },
+        {
+          "type": "shop"
+        },
+        {
+          "type": "story",
+          "pool": "Fire and Ice"
+        },
+        {
+          "type": "encounters",
+          "pool": "Chance Encounter"
+        }
+      ]
+    }
+  }
+}

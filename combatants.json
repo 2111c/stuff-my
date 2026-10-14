@@ -1,0 +1,6088 @@
+{
+  "Combatants": {
+    "Macduff": {
+      "Name": "Macduff",
+      "Class": "Havenus Elite",
+      "Tier": 1,
+      "HP": 221,
+      "Speed-Range": "3-7",
+      "Defense": 60,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Ineff",
+        "Blunt": "Fatal"
+      },
+      "Skills": {
+        "Stab": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Ice",
+          "Base-Power": 4,
+          "Coin-Count": 1,
+          "Coin-Power": 7,
+          "Offense-Level": 42,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Final-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 2,
+                "Count": 0
+              }
+            ]
+          },
+          "Flavor": "A precise thrust aimed at exposed vitals."
+        },
+        "X Slash": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Wind",
+          "Base-Power": 7,
+          "Coin-Count": 2,
+          "Coin-Power": 4,
+          "Offense-Level": 39,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 0,
+                "Count": 3
+              }
+            ]
+          },
+          "Flavor": "An aggressive dual slash with the sword."
+        },
+        "Momentum Slash": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Earth",
+          "Base-Power": 10,
+          "Coin-Count": 1,
+          "Coin-Power": 6,
+          "Offense-Level": 45,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 1,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 3,
+                "Count": 0
+              }
+            ]
+          },
+          "Flavor": "A powerful slash that burns the target's flesh."
+        },
+        "Defend": {
+          "Type": "Defense",
+          "Defense-Level": 45,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Gain",
+                "Status": "Guard",
+                "Potency": 20,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A defensive stance that raises the guard."
+        }
+      }
+    },
+    "Racheal": {
+      "Name": "Racheal",
+      "Class": "Havenus Elite",
+      "Tier": 1,
+      "HP": 239,
+      "Speed-Range": "2-5",
+      "Defense": 60,
+      "Resistances": {
+        "Slash": "Ineff",
+        "Pierce": "Fatal",
+        "Blunt": "Normal"
+      },
+      "Skills": {
+        "Spear Strike": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Wind",
+          "Base-Power": 12,
+          "Coin-Count": 1,
+          "Coin-Power": -12,
+          "Offense-Level": 41,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A long spearing strike that leaves the wound open."
+        },
+        "Swinging Lunge": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Water",
+          "Base-Power": 15,
+          "Coin-Count": 3,
+          "Coin-Power": -5,
+          "Offense-Level": 46,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A water-aided thrust that drives the harpoon deep."
+        },
+        "Support Guard": {
+          "Type": "Support",
+          "Damage-Type": "None",
+          "Element": "Fire",
+          "Base-Power": 0,
+          "Coin-Count": 0,
+          "Coin-Power": 0,
+          "Offense-Level": 0,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Shield-Ally",
+                "Status": "Guard",
+                "Potency": 30,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "Throws a net to protect an ally and slow incoming attacks."
+        },
+        "Defending Space": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Fire",
+          "Base-Power": 16,
+          "Coin-Count": 2,
+          "Coin-Power": -8,
+          "Offense-Level": 52,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 4,
+                "Count": 0
+              }
+            ]
+          }
+        }
+      }
+    },
+    "The Monster": {
+      "Name": "The Monster",
+      "Class": "Havenus Elite",
+      "Tier": 1,
+      "HP": 184,
+      "Speed-Range": "3-7",
+      "Defense": 56,
+      "Resistances": {
+        "Slash": "Ineff",
+        "Pierce": "Fatal",
+        "Blunt": "Normal"
+      },
+      "Skills": {
+        "Rough Smash": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Water",
+          "Base-Power": 9,
+          "Coin-Count": 2,
+          "Coin-Power": 2,
+          "Offense-Level": 48,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 6,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A brutal strike that rattles armour and bone."
+        },
+        "Seismic Roar": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Fire",
+          "Base-Power": 6,
+          "Coin-Count": 3,
+          "Coin-Power": 3,
+          "Offense-Level": 44,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Devastate"
+              }
+            ]
+          },
+          "Flavor": "A ground-shaking bellow that weakens foes' guards."
+        },
+        "Grab & Rattle": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Void",
+          "Base-Power": 9,
+          "Coin-Count": 1,
+          "Coin-Power": 7,
+          "Offense-Level": 52,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 10,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A crushing grappling strike that leaves victims shaken."
+        },
+        "Defend": {
+          "Type": "Defense",
+          "Defense-Level": 50,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Gain",
+                "Status": "Guard",
+                "Potency": 30,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A defensive stance that raises the guard and draws attention."
+        }
+      }
+    },
+    "Goole": {
+      "Name": "Goole",
+      "Class": "Havenus Elite",
+      "Tier": 1,
+      "HP": 221,
+      "Speed-Range": "4-8",
+      "Defense": 58,
+      "Resistances": {
+        "Slash": "Fatal",
+        "Pierce": "Ineff",
+        "Blunt": "Normal"
+      },
+      "Skills": {
+        "Book Swipe": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Ice",
+          "Base-Power": 5,
+          "Coin-Count": 2,
+          "Coin-Power": 3,
+          "Offense-Level": 38,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A binding sweep from the inspector's tome."
+        },
+        "Tome Countering Slash": {
+          "Type": "Counter",
+          "Damage-Type": "Slash",
+          "Element": "Ice",
+          "Base-Power": 6,
+          "Coin-Count": 2,
+          "Coin-Power": 4,
+          "Offense-Level": 43,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 6,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A graceful parry that turns the foe's strength back on them."
+        },
+        "Arsenal Strike": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Void",
+          "Base-Power": 7,
+          "Coin-Count": 2,
+          "Coin-Power": 4,
+          "Offense-Level": 43,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 3,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "Strikes with a summoned weapon; stronger if recently called forth."
+        },
+        "Twisted Amputation": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Earth",
+          "Base-Power": 12,
+          "Coin-Count": 1,
+          "Coin-Power": 4,
+          "Offense-Level": 52,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 5,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A devastatingly precise severing strike that exhausts the wielder."
+        }
+      }
+    },
+    "Antonia": {
+      "Name": "Antonia",
+      "Class": "Havenus Elite",
+      "Tier": 1,
+      "HP": 239,
+      "Speed-Range": "5-8",
+      "Defense": 60,
+      "Resistances": {
+        "Slash": "Fatal",
+        "Pierce": "Normal",
+        "Blunt": "Ineff"
+      },
+      "Skills": {
+        "Shield Bash": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Fire",
+          "Base-Power": 6,
+          "Coin-Count": 1,
+          "Coin-Power": 5,
+          "Offense-Level": 40,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Devastate"
+              }
+            ]
+          },
+          "Flavor": "A solid bash that offloads momentum from foes."
+        },
+        "Sheild Throw": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Wind",
+          "Base-Power": 11,
+          "Coin-Count": 2,
+          "Coin-Power": 2,
+          "Offense-Level": 48,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 5,
+                "Count": 2
+              }
+            ]
+          },
+          "Flavor": "A powerful slash that leaves the target trembling."
+        },
+        "Supportive Heal": {
+          "Type": "Support",
+          "Damage-Type": "None",
+          "Element": "Fire",
+          "Base-Power": 0,
+          "Coin-Count": 1,
+          "Coin-Power": 0,
+          "Offense-Level": 0,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Heal-Ally",
+                "Potency": 20,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "Trades a small boon of vitality to an ally at the right price."
+        },
+        "Heroic Charge": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Ice",
+          "Base-Power": 12,
+          "Coin-Count": 2,
+          "Coin-Power": 2,
+          "Offense-Level": 48,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 3,
+                "Count": 2
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 5,
+                "Count": 0
+              }
+            ]
+          },
+          "Flavor": "Charge onwards with a shield raised, stunning foes in the path."
+        }
+      }
+    },
+    "Romeo": {
+      "Name": "Romeo",
+      "Class": "Havenus Elite",
+      "Tier": 1,
+      "HP": 239,
+      "Speed-Range": "2-5",
+      "Defense": 60,
+      "Resistances": {
+        "Slash": "Fatal",
+        "Pierce": "Normal",
+        "Blunt": "Ineff"
+      },
+      "Skills": {
+        "Fleche": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Void",
+          "Base-Power": 4,
+          "Coin-Count": 1,
+          "Coin-Power": 7,
+          "Offense-Level": 46,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A lightning lunge designed to reach the heart first."
+        },
+        "Elegant Riposte": {
+          "Type": "Counter",
+          "Damage-Type": "Pierce",
+          "Element": "Void",
+          "Base-Power": 7,
+          "Coin-Count": 2,
+          "Coin-Power": 4,
+          "Offense-Level": 48,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 6,
+                "Count": 0
+              }
+            ]
+          },
+          "Flavor": "A graceful parry that turns the foe's strength back on them."
+        },
+        "Royal Flourish": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Fire",
+          "Base-Power": 9,
+          "Coin-Count": 3,
+          "Coin-Power": 2,
+          "Offense-Level": 50,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Final-Hit": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 6,
+                "Count": 0
+              }
+            ]
+          },
+          "Flavor": "A showy multi-step attack that ends with a decisive flourish."
+        },
+        "Relentless Stabing": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Charm",
+          "Base-Power": 10,
+          "Coin-Count": 2,
+          "Coin-Power": 3,
+          "Offense-Level": 52,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 1,
+                "Count": 2
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 5,
+                "Count": 0
+              }
+            ]
+          },
+          "Flavor": "A relentless stabing attack that leaves the target bruised."
+        }
+      }
+    },
+    "Snowball": {
+      "Name": "Snowball",
+      "Class": "Havenus Elite",
+      "Tier": 1,
+      "HP": 203,
+      "Speed-Range": "3-6",
+      "Defense": 58,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Ineff",
+        "Blunt": "Fatal"
+      },
+      "Skills": {
+        "Gale Punch": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Charm",
+          "Base-Power": 6,
+          "Coin-Count": 2,
+          "Coin-Power": 3,
+          "Offense-Level": 40,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Devastate"
+              }
+            ]
+          },
+          "Flavor": "Wind-augmented strikes that snap joints like gusts."
+        },
+        "Windstep": {
+          "Type": "Support",
+          "Damage-Type": "None",
+          "Element": "Charm",
+          "Base-Power": 0,
+          "Coin-Count": 0,
+          "Coin-Power": 0,
+          "Offense-Level": 0,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Gain",
+                "Status": "Haste",
+                "Potency": 2,
+                "Count": 2
+              }
+            ]
+          },
+          "Flavor": "A gust around the fists to speed follow-up blows."
+        },
+        "Hurricane Combo": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Void",
+          "Base-Power": 11,
+          "Coin-Count": 2,
+          "Coin-Power": 2,
+          "Offense-Level": 48,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Haste",
+                "Potency": 1,
+                "Count": 1
+              },
+              {
+                "Effect": "Inflict",
+                "Status": "Winded",
+                "Potency": 5,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A flurry of wind-powered strikes that leave no opening."
+        },
+        "Aero Dynamic Fist": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Wind",
+          "Base-Power": 8,
+          "Coin-Count": 1,
+          "Coin-Power": 8,
+          "Offense-Level": 52,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Winded",
+                "Potency": 6,
+                "Count": 2
+              }
+            ],
+            "On-Final-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Winded",
+                "Potency": 12,
+                "Count": 0
+              }
+            ]
+          },
+          "Flavor": "A devastatingly precise severing strike using a wind-powered fist."
+        }
+      }
+    },
+    "Sherlock": {
+      "Name": "Sherlock",
+      "Class": "Havenus Elite",
+      "Tier": 1,
+      "HP": 203,
+      "Speed-Range": "3-6",
+      "Defense": 58,
+      "Resistances": {
+        "Slash": "Fatal",
+        "Pierce": "Normal",
+        "Blunt": "Ineff"
+      },
+      "Skills": {
+        "Lead Shot": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Water",
+          "Base-Power": 6,
+          "Coin-Count": 1,
+          "Coin-Power": 7,
+          "Offense-Level": 42,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Winded",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A precise pistol shot enhanced by electric discharge."
+        },
+        "Overload Rounds": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Earth",
+          "Base-Power": 11,
+          "Coin-Count": 2,
+          "Coin-Power": 2,
+          "Offense-Level": 49,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Winded",
+                "Potency": 2,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A charged volley that conducts through armour and bone."
+        },
+        "Tactical Analysis": {
+          "Type": "Evade",
+          "Damage-Type": "None",
+          "Element": "Earth",
+          "Base-Power": 5,
+          "Coin-Count": 1,
+          "Coin-Power": 10,
+          "Offense-Level": 2,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Reload",
+                "Potency": 5
+              }
+            ]
+          },
+          "Flavor": "A detective's calm calculation — reloads and finds an opening."
+        },
+        "Direct Shot": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Charm",
+          "Base-Power": 6,
+          "Coin-Count": 1,
+          "Coin-Power": 10,
+          "Offense-Level": 54,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Final-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Winded",
+                "Potency": 5,
+                "Count": 0
+              }
+            ]
+          },
+          "Flavor": "A charged shot that leaves the target in a storm of electricity."
+        }
+      }
+    },
+    "George": {
+      "Name": "George",
+      "Class": "Havenus Elite",
+      "Tier": 1,
+      "HP": 276,
+      "Speed-Range": "2-3",
+      "Defense": 63,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Fatal",
+        "Blunt": "Ineff"
+      },
+      "Skills": {
+        "Hammer Swings": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Earth",
+          "Base-Power": 8,
+          "Coin-Count": 2,
+          "Coin-Power": 2,
+          "Offense-Level": 43,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 1,
+                "Count": 0
+              }
+            ]
+          },
+          "Flavor": "Two quick swings from the hammer that catch foes off-balance."
+        },
+        "Sand Stride": {
+          "Type": "Support",
+          "Damage-Type": "None",
+          "Element": "Earth",
+          "Base-Power": 0,
+          "Coin-Count": 0,
+          "Coin-Power": 0,
+          "Offense-Level": 0,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Gain",
+                "Status": "Haste",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "Uses scorching sand to harden strikes and quicken footwork."
+        },
+        "Scorching Storm": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Water",
+          "Base-Power": 9,
+          "Coin-Count": 1,
+          "Coin-Power": 6,
+          "Offense-Level": 50,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 3,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A whirlwind of sand and fire that leaves enemies smoldering."
+        },
+        "Clobbering Time": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Ice",
+          "Base-Power": 12,
+          "Coin-Count": 1,
+          "Coin-Power": 4,
+          "Offense-Level": 54,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 3,
+                "Count": 1
+              }
+            ],
+            "On-Final-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 6,
+                "Count": 0
+              }
+            ]
+          },
+          "Flavor": "A devastatingly precise hamner strike that leaves the target burning."
+        }
+      }
+    },
+    "Kyla": {
+      "Name": "Kyla",
+      "Class": "Havenus Elite",
+      "Tier": 1,
+      "HP": 203,
+      "Speed-Range": "3-6",
+      "Defense": 56,
+      "Resistances": {
+        "Slash": "Ineff",
+        "Pierce": "Normal",
+        "Blunt": "Fatal"
+      },
+      "Skills": {
+        "Great Cleave": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Wind",
+          "Base-Power": 8,
+          "Coin-Count": 1,
+          "Coin-Power": 3,
+          "Offense-Level": 46,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 10,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 1,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 3,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A two-handed swing that can fell shields and sinew."
+        },
+        "Madness Strike": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Charm",
+          "Base-Power": 12,
+          "Coin-Count": 1,
+          "Coin-Power": 3,
+          "Offense-Level": 58,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 25,
+          "Effects": {
+            "On-Final-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 1,
+                "Count": 1
+              },
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A savage blow delivered by Hydia when the voice of restraint falls silent."
+        },
+        "Defend": {
+          "Type": "Defense",
+          "Defense-Level": 50,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Gain",
+                "Status": "Guard",
+                "Potency": 30,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A defensive stance that raises the guard."
+        },
+        "Arc Slashes": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Water",
+          "Base-Power": 6,
+          "Coin-Count": 1,
+          "Coin-Power": 10,
+          "Offense-Level": 52,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 15,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 3,
+                "Count": 1
+              }
+            ],
+            "On-Final-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 6,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A devastatingly precise severing strike that leaves the target bruised."
+        }
+      }
+    },
+    "Linda": {
+      "Name": "Linda",
+      "Class": "Havenus Elite",
+      "Tier": 1,
+      "HP": 184,
+      "Speed-Range": "3-7",
+      "Defense": 56,
+      "Resistances": {
+        "Slash": "Fatal",
+        "Pierce": "Normal",
+        "Blunt": "Ineff"
+      },
+      "Skills": {
+        "Quantum Beam": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Earth",
+          "Base-Power": 7,
+          "Coin-Count": 1,
+          "Coin-Power": 6,
+          "Offense-Level": 48,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Quantus",
+                "Potency": 0,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A concentrated beam of ring-bent quantum energy."
+        },
+        "Wormhole Strike": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Water",
+          "Base-Power": 10,
+          "Coin-Count": 1,
+          "Coin-Power": 5,
+          "Offense-Level": 50,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Quantus",
+                "Potency": 0,
+                "Count": 3
+              }
+            ]
+          },
+          "Flavor": "A strike that briefly phases the target through space."
+        },
+        "Portal Guard": {
+          "Type": "Support",
+          "Damage-Type": "None",
+          "Element": "Earth",
+          "Base-Power": 0,
+          "Coin-Count": 0,
+          "Coin-Power": 0,
+          "Offense-Level": 0,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Gain",
+                "Status": "Guard",
+                "Potency": 20,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "Opens a small gateway that briefly shields and phases incoming blows."
+        },
+        "Quantum Laser": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Ice",
+          "Base-Power": 10,
+          "Coin-Count": 1,
+          "Coin-Power": 6,
+          "Offense-Level": 54,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Quantus",
+                "Potency": 0,
+                "Count": 5
+              }
+            ]
+          },
+          "Flavor": "A Hyper concentrated beam of quantum energy."
+        }
+      }
+    },
+    "Tia": {
+      "Name": "Tia",
+      "Class": "Havenus Elite",
+      "Tier": 1,
+      "HP": 258,
+      "Speed-Range": "2-4",
+      "Defense": 61,
+      "Resistances": {
+        "Slash": "Fatal",
+        "Pierce": "Ineff",
+        "Blunt": "Normal"
+      },
+      "Skills": {
+        "Temporal Kick": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Water",
+          "Base-Power": 7,
+          "Coin-Count": 1,
+          "Coin-Power": 4,
+          "Offense-Level": 44,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 5,
+                "Count": 0
+              }
+            ]
+          },
+          "Flavor": "A booted strike that tangles a foe in slowed moments."
+        },
+        "Afterimage Step": {
+          "Type": "Support",
+          "Damage-Type": "None",
+          "Element": "Water",
+          "Base-Power": 0,
+          "Coin-Count": 0,
+          "Coin-Power": 0,
+          "Offense-Level": 0,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Gain",
+                "Status": "Evasion",
+                "Potency": 2,
+                "Count": 2
+              }
+            ]
+          },
+          "Flavor": "Blurs into a previous step — harder to hit for a moment."
+        },
+        "Rewind Kick": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Earth",
+          "Base-Power": 7,
+          "Coin-Count": 2,
+          "Coin-Power": 4,
+          "Offense-Level": 52,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 3,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "Strikes through time to undo the enemy's most recent movement."
+        },
+        "Temporal Displacement": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Wind",
+          "Base-Power": 10,
+          "Coin-Count": 1,
+          "Coin-Power": 6,
+          "Offense-Level": 56,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 3,
+                "Count": 1
+              }
+            ],
+            "On-Final-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 6,
+                "Count": 0
+              }
+            ]
+          },
+          "Flavor": "Perform a flying kick that temporarily displaces the target in time."
+        }
+      }
+    },
+    "A Sector Assassin Romeo": {
+      "Name": "Romeo",
+      "Class": "A Sector",
+      "Tier": 2,
+      "HP": 187,
+      "Speed-Range": "3-4",
+      "Defense": 63,
+      "Resistances": {
+        "Slash": "Ineff",
+        "Pierce": "Fatal",
+        "Blunt": "Normal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Execution!!!",
+          "Description": "If this unit is at 7+ Speed, deal 3x damage with Skills"
+        }
+      ],
+      "Skills": {
+        "Boost Slash": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Wind",
+          "Base-Power": 9,
+          "Coin-Count": 1,
+          "Coin-Power": 5,
+          "Offense-Level": 60,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Gain",
+                "Status": "Haste",
+                "Potency": 1,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Haste",
+                "Potency": 1,
+                "Count": 0
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        },
+        "Blitzing Speeds": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Earth",
+          "Base-Power": 10,
+          "Coin-Count": 1,
+          "Coin-Power": 7,
+          "Offense-Level": 70,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Gain",
+                "Status": "Haste",
+                "Potency": 2,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Haste",
+                "Potency": 1,
+                "Count": 0
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        },
+        "Drifting": {
+          "Type": "Evade",
+          "Damage-Type": "None",
+          "Element": "Wind",
+          "Base-Power": 10,
+          "Coin-Count": 1,
+          "Coin-Power": 8,
+          "Offense-Level": 2,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Haste",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+          }
+        },
+        "Beyond Natural Speeds": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Water",
+          "Base-Power": 13,
+          "Coin-Count": 1,
+          "Coin-Power": 7,
+          "Offense-Level": 79,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Gain",
+                "Status": "Haste",
+                "Potency": 2,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Haste",
+                "Potency": 1,
+                "Count": 0
+              },
+              {
+                "Effect": "Inflict",
+                "Status": "Fragility(2, 2) (Next Turn)",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        }
+      }
+    },
+    "A Sector Assassin Antonia": {
+      "Name": "Antonia",
+      "Class": "A Sector",
+      "Tier": 2,
+      "HP": 177,
+      "Speed-Range": "3-5",
+      "Defense": 65,
+      "Resistances": {
+        "Slash": "Ineff",
+        "Pierce": "Fatal",
+        "Blunt": "Normal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Execution!!!",
+          "Description": "If this unit is at 7+ Speed, deal 3x damage with Skills"
+        }
+      ],
+      "Skills": {
+        "Decapatate": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Void",
+          "Base-Power": 7,
+          "Coin-Count": 1,
+          "Coin-Power": 5,
+          "Offense-Level": 60,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Fragility",
+                "Potency": 1,
+                "Count": 1
+              },
+              {
+                "Effect": "Gain",
+                "Status": "Haste",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        },
+        "Dig Through": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Charm",
+          "Base-Power": 8,
+          "Coin-Count": 1,
+          "Coin-Power": 9,
+          "Offense-Level": 70,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Haste",
+                "Potency": 2,
+                "Count": 1
+              },
+              {
+                "Effect": "Inflict",
+                "Status": "Fragility",
+                "Potency": 1,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        },
+        "Watching": {
+          "Type": "Evade",
+          "Damage-Type": "None",
+          "Element": "Wind",
+          "Base-Power": 10,
+          "Coin-Count": 1,
+          "Coin-Power": 8,
+          "Offense-Level": 2,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Haste",
+                "Potency": 0,
+                "Count": 2
+              }
+            ]
+          }
+        },
+        "Hole In The Heart": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Wind",
+          "Base-Power": 9,
+          "Coin-Count": 1,
+          "Coin-Power": 11,
+          "Offense-Level": 79,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Haste",
+                "Potency": 2,
+                "Count": 1
+              },
+              {
+                "Effect": "Inflict",
+                "Status": "Fragility(2, 2) (Next Turn)",
+                "Potency": 1,
+                "Count": 1
+              },
+              {
+                "Effect": "Inflict",
+                "Status": "Fragility",
+                "Potency": 1,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        }
+      }
+    },
+    "A Sector Assassination Director Snowball": {
+      "Name": "Snowball",
+      "Class": "A Sector",
+      "Tier": 2,
+      "HP": 207,
+      "Speed-Range": "4-6",
+      "Defense": 65,
+      "Resistances": {
+        "Slash": "Ineff",
+        "Pierce": "Fatal",
+        "Blunt": "Normal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Follow The Script",
+          "Description": "All 'A Sector' units other than this one gain 'Power' (2, 1) and 'Haste' (1, 1) at Start of Turn"
+        }
+      ],
+      "Skills": {
+        "To Me": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Fire",
+          "Base-Power": 7,
+          "Coin-Count": 2,
+          "Coin-Power": 3,
+          "Offense-Level": 55,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Fragility",
+                "Potency": 3,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Fragility",
+                "Potency": 0,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        },
+        "Get Ready To Follow Up": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Ice",
+          "Base-Power": 5,
+          "Coin-Count": 3,
+          "Coin-Power": 4,
+          "Offense-Level": 65,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Fragility",
+                "Potency": 3,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Fragility",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        },
+        "Strike Mark": {
+          "Type": "Counter",
+          "Damage-Type": "Slash",
+          "Element": "Wind",
+          "Base-Power": 9,
+          "Coin-Count": 2,
+          "Coin-Power": 4,
+          "Offense-Level": 62,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Final-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Fragility",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+          }
+        },
+        "This Part's The Most Important": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Wind",
+          "Base-Power": 6,
+          "Coin-Count": 4,
+          "Coin-Power": 3,
+          "Offense-Level": 70,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Fragility",
+                "Potency": 3,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Haste",
+                "Potency": 1,
+                "Count": 2
+              },
+              {
+                "Effect": "Inflict",
+                "Status": "Fragility",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        }
+      }
+    },
+    "E Sector Defense Squad The Monster": {
+      "Name": "The Monster",
+      "Class": "E Sector",
+      "Tier": 2,
+      "HP": 244,
+      "Speed-Range": "3-7",
+      "Defense": 56,
+      "Resistances": {
+        "Slash": "Fatal",
+        "Pierce": "Normal",
+        "Blunt": "Ineff"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Sheilding",
+          "Description": "This unit and all allied units take 20% less damage from targets with Quaken"
+        }
+      ],
+      "Skills": {
+        "Knock Back": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Wind",
+          "Base-Power": 9,
+          "Coin-Count": 1,
+          "Coin-Power": 5,
+          "Offense-Level": 51,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 1,
+                "Count": 3
+              }
+            ]
+          }
+        },
+        "Deflecting": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Void",
+          "Base-Power": 7,
+          "Coin-Count": 2,
+          "Coin-Power": 4,
+          "Offense-Level": 62,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 2,
+                "Count": 2
+              }
+            ]
+          }
+        },
+        "Tank Formation": {
+          "Type": "Defense",
+          "Defense-Level": 45,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Gain",
+                "Status": "Guard",
+                "Potency": 30,
+                "Count": 2
+              }
+            ]
+          },
+          "Flavor": "A defensive stance that raises the guard."
+        },
+        "The Art Of The Sheild": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Earth",
+          "Base-Power": 10,
+          "Coin-Count": 2,
+          "Coin-Power": 4,
+          "Offense-Level": 72,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 3,
+                "Count": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    "E Sector Defense Squad Racheal": {
+      "Name": "Racheal",
+      "Class": "E Sector",
+      "Tier": 2,
+      "HP": 219,
+      "Speed-Range": "3-7",
+      "Defense": 56,
+      "Resistances": {
+        "Slash": "Fatal",
+        "Pierce": "Normal",
+        "Blunt": "Ineff"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Sheilding",
+          "Description": "This unit and all allied units take 20% less damage from targets with Quaken"
+        }
+      ],
+      "Skills": {
+        "Cross Bash": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Water",
+          "Base-Power": 8,
+          "Coin-Count": 2,
+          "Coin-Power": 3,
+          "Offense-Level": 51,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 1,
+                "Count": 3
+              }
+            ]
+          }
+        },
+        "Push Back": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Charm",
+          "Base-Power": 6,
+          "Coin-Count": 1,
+          "Coin-Power": 9,
+          "Offense-Level": 62,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 2,
+                "Count": 2
+              }
+            ]
+          }
+        },
+        "Tank Formation": {
+          "Type": "Defense",
+          "Defense-Level": 45,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Gain",
+                "Status": "Guard",
+                "Potency": 30,
+                "Count": 2
+              }
+            ]
+          },
+          "Flavor": "A defensive stance that raises the guard."
+        },
+        "Violent Crash": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Earth",
+          "Base-Power": 11,
+          "Coin-Count": 1,
+          "Coin-Power": 9,
+          "Offense-Level": 72,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 3,
+                "Count": 1
+              },
+              {
+                "Effect": "Devastate"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "E Sector Defense Squad Macduff": {
+      "Name": "Macduff",
+      "Class": "E Sector",
+      "Tier": 2,
+      "HP": 238,
+      "Speed-Range": "4-5",
+      "Defense": 56,
+      "Resistances": {
+        "Slash": "Fatal",
+        "Pierce": "Normal",
+        "Blunt": "Ineff"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Offense is a great Defense",
+          "Description": "This unit and all allied units deal 20% more damage to targets with Quaken"
+        }
+      ],
+      "Skills": {
+        "Swinging of the Claymore": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Ice",
+          "Base-Power": 5,
+          "Coin-Count": 3,
+          "Coin-Power": 3,
+          "Offense-Level": 51,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 1,
+                "Count": 3
+              }
+            ]
+          }
+        },
+        "Pressure Point Stab Wounds": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Void",
+          "Base-Power": 5,
+          "Coin-Count": 3,
+          "Coin-Power": 4,
+          "Offense-Level": 62,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 2,
+                "Count": 2
+              }
+            ]
+          }
+        },
+        "Push Back": {
+          "Type": "Counter",
+          "Damage-Type": "Blunt",
+          "Element": "Earth",
+          "Base-Power": 19,
+          "Coin-Count": 1,
+          "Coin-Power": -9,
+          "Offense-Level": 62,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Final-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 0,
+                "Count": 1
+              }
+            ]
+          }
+        },
+        "Blade Spinning": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Void",
+          "Base-Power": 12,
+          "Coin-Count": 2,
+          "Coin-Power": 4,
+          "Offense-Level": 72,
+          "Attack-Weight": 3,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Devastate"
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 3,
+                "Count": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    "E Sector Defense Squad Tia": {
+      "Name": "Tia",
+      "Class": "E Sector",
+      "Tier": 2,
+      "HP": 184,
+      "Speed-Range": "2-4",
+      "Defense": 56,
+      "Resistances": {
+        "Slash": "Fatal",
+        "Pierce": "Normal",
+        "Blunt": "Ineff"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Offense is a great Defense",
+          "Description": "This unit and all allied units deal 20% more damage to targets with Quaken"
+        },
+        {
+          "Name": "Able Man's Rifle",
+          "Description": "Start's encounter with 'Stone Bullets' (55, 1). When spending 'Stone Bullets' on Pierce attacks, inflict 1 Quaken Potency"
+        }
+      ],
+      "Skills": {
+        "Supressive Fire": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Fire",
+          "Base-Power": 6,
+          "Coin-Count": 2,
+          "Coin-Power": 5,
+          "Offense-Level": 51,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 1,
+                "Count": 3
+              }
+            ]
+          }
+        },
+        "Concentration Shot": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Void",
+          "Base-Power": 9,
+          "Coin-Count": 1,
+          "Coin-Power": 6,
+          "Offense-Level": 62,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 2,
+                "Count": 2
+              }
+            ]
+          }
+        },
+        "Countering Shots": {
+          "Type": "Counter",
+          "Damage-Type": "Pierce",
+          "Element": "Earth",
+          "Base-Power": 9,
+          "Coin-Count": 4,
+          "Coin-Power": 2,
+          "Offense-Level": 62,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Final-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 0,
+                "Count": 1
+              }
+            ]
+          }
+        },
+        "Crowd Control": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Void",
+          "Base-Power": 4,
+          "Coin-Count": 5,
+          "Coin-Power": 3,
+          "Offense-Level": 72,
+          "Attack-Weight": 4,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 3,
+                "Count": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    "F Sector Army Solider Macduff": {
+      "Name": "Macduff",
+      "Class": "F Sector",
+      "Tier": 2,
+      "HP": 225,
+      "Speed-Range": "4-6",
+      "Defense": 64,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Ineff",
+        "Blunt": "Fatal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "F Sector Flame Blades",
+          "Description": "On Critical Hit, inflict 1 Burn Potency."
+        }
+      ],
+      "Skills": {
+        "Flame Slash": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Ice",
+          "Base-Power": 5,
+          "Coin-Count": 2,
+          "Coin-Power": 4,
+          "Offense-Level": 55,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 0,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        },
+        "Blaze Onward": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Water",
+          "Base-Power": 4,
+          "Coin-Count": 2,
+          "Coin-Power": 5,
+          "Offense-Level": 65,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 1,
+                "Count": 2
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 1,
+                "Count": 5
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        },
+        "Counter": {
+          "Type": "Counter",
+          "Damage-Type": "Slash",
+          "Element": "Fire",
+          "Base-Power": 6,
+          "Coin-Count": 3,
+          "Coin-Power": 3,
+          "Offense-Level": 55,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Final-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 1,
+                "Count": 0
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        },
+        "All Out War": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Fire",
+          "Base-Power": 8,
+          "Coin-Count": 2,
+          "Coin-Power": 4,
+          "Offense-Level": 70,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 2,
+                "Count": 2
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 4,
+                "Count": 4
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        }
+      }
+    },
+    "F Sector Army Solider George": {
+      "Name": "George",
+      "Class": "F Sector",
+      "Tier": 2,
+      "HP": 232,
+      "Speed-Range": "4-5",
+      "Defense": 63,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Ineff",
+        "Blunt": "Fatal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "F Sector Flame Blades",
+          "Description": "On Critical Hit, inflict 1 Burn Potency."
+        }
+      ],
+      "Skills": {
+        "Burning Blade": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Charm",
+          "Base-Power": 5,
+          "Coin-Count": 1,
+          "Coin-Power": 8,
+          "Offense-Level": 55,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 0,
+                "Count": 2
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 0,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        },
+        "Burn It Away": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Ice",
+          "Base-Power": 10,
+          "Coin-Count": 1,
+          "Coin-Power": 4,
+          "Offense-Level": 65,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 1,
+                "Count": 2
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 2,
+                "Count": 3
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        },
+        "Evade": {
+          "Type": "Evade",
+          "Damage-Type": "None",
+          "Element": "Fire",
+          "Base-Power": 9,
+          "Coin-Count": 1,
+          "Coin-Power": 5,
+          "Offense-Level": 2,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 4,
+                "Count": 2
+              }
+            ]
+          }
+        },
+        "Conflicts": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Fire",
+          "Base-Power": 8,
+          "Coin-Count": 2,
+          "Coin-Power": 5,
+          "Offense-Level": 70,
+          "Attack-Weight": 2,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 2,
+                "Count": 2
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 4,
+                "Count": 4
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        }
+      }
+    },
+    "F Sector Army Archer Sherlock": {
+      "Name": "Sherlock",
+      "Class": "F Sector",
+      "Tier": 2,
+      "HP": 201,
+      "Speed-Range": "1-3",
+      "Defense": 63,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Ineff",
+        "Blunt": "Fatal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "F Sector Flame Bow",
+          "Description": "On Critical Hit, inflict 1 Burn Potency."
+        }
+      ],
+      "Skills": {
+        "Piercing Arrow": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Wind",
+          "Base-Power": 7,
+          "Coin-Count": 1,
+          "Coin-Power": 7,
+          "Offense-Level": 55,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 0,
+                "Count": 1
+              }
+            ],
+            "On-Final-Hit": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 2,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        },
+        "Close Combat": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Void",
+          "Base-Power": 3,
+          "Coin-Count": 2,
+          "Coin-Power": 6,
+          "Offense-Level": 65,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 1,
+                "Count": 1
+              }
+            ],
+            "On-Final-Hit": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 3,
+                "Count": 3
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        },
+        "Evade": {
+          "Type": "Evade",
+          "Damage-Type": "None",
+          "Element": "Fire",
+          "Base-Power": 9,
+          "Coin-Count": 1,
+          "Coin-Power": 5,
+          "Offense-Level": 2,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 3,
+                "Count": 2
+              }
+            ]
+          }
+        },
+        "Arrow Rain": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Fire",
+          "Base-Power": 6,
+          "Coin-Count": 2,
+          "Coin-Power": 5,
+          "Offense-Level": 70,
+          "Attack-Weight": 5,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 2,
+                "Count": 1
+              }
+            ],
+            "On-Final-Hit": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 4,
+                "Count": 4
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        }
+      }
+    },
+    "F Sector Army Charging Force Antonia": {
+      "Name": "Antonia",
+      "Class": "F Sector",
+      "Tier": 3,
+      "HP": 308,
+      "Speed-Range": "2-5",
+      "Defense": 64,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Ineff",
+        "Blunt": "Fatal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "F Sector Flame Charging Suit",
+          "Description": "On Critical Hit, inflict 1 Burn Potency."
+        },
+        {
+          "Name": "Passionate Flame",
+          "Description": "Gain 'Passion' (1, 1) on Critical Hit. At 3 'Passion' potency, lose all 'Passion' to deal 1.6x damage on Critical Hit."
+        }
+      ],
+      "Skills": {
+        "Strong Arm": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Earth",
+          "Base-Power": 6,
+          "Coin-Count": 1,
+          "Coin-Power": 7,
+          "Offense-Level": 55,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 1,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 2,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        },
+        "Coming Through!!!": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Void",
+          "Base-Power": 5,
+          "Coin-Count": 2,
+          "Coin-Power": 5,
+          "Offense-Level": 65,
+          "Attack-Weight": 3,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 2,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 2,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        },
+        "Defend": {
+          "Type": "Defense",
+          "Defense-Level": 45,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Gain",
+                "Status": "Guard",
+                "Potency": 40,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "\"A defensive stance that raises the guard.\""
+        },
+        "Mindless Rush": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Fire",
+          "Base-Power": 8,
+          "Coin-Count": 1,
+          "Coin-Power": 13,
+          "Offense-Level": 70,
+          "Attack-Weight": 5,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 3,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 4,
+                "Count": 4
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        }
+      }
+    },
+    "F Sector Army Health Care Agent Kyla": {
+      "Name": "Kyla",
+      "Class": "F Sector",
+      "Tier": 2,
+      "HP": 288,
+      "Speed-Range": "1-4",
+      "Defense": 64,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Ineff",
+        "Blunt": "Fatal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "F Sector Flame Blades",
+          "Description": "On Critical Hit, inflict 1 Burn Potency."
+        },
+        {
+          "Name": "I'll Fix You Up",
+          "Description": "At the start of the turn, the lowest HP ally heals HP equal to the total amount of Burn Potency on all targets."
+        }
+      ],
+      "Skills": {
+        "Self Defense": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Water",
+          "Base-Power": 5,
+          "Coin-Count": 3,
+          "Coin-Power": 3,
+          "Offense-Level": 55,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 1,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 2,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        },
+        "On Field Work": {
+          "Type": "Support",
+          "Damage-Type": "None",
+          "Element": "Fire",
+          "Base-Power": 0,
+          "Coin-Count": 1,
+          "Coin-Power": 0,
+          "Offense-Level": 0,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Heal-Ally",
+                "Potency": 20,
+                "Count": 1
+              }
+            ],
+            "On-Hit": [
+              {
+                "Effect": "Heal-Ally",
+                "Potency": 10,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "Trades a small boon of vitality to an ally at the right price."
+        },
+        "Flailing Sword": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Ice",
+          "Base-Power": 6,
+          "Coin-Count": 2,
+          "Coin-Power": 4,
+          "Offense-Level": 65,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 2,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 3,
+                "Count": 3
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        },
+        "Combat Training": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Fire",
+          "Base-Power": 5,
+          "Coin-Count": 1,
+          "Coin-Power": 13,
+          "Offense-Level": 69,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 1,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 4,
+                "Count": 2
+              }
+            ]
+          },
+          "Flavor": "\"A basic combat technique that deals moderate damage.\""
+        }
+      }
+    },
+    "F Sector Army General Racheal": {
+      "Name": "Racheal",
+      "Class": "F Sector",
+      "Tier": 2,
+      "HP": 320,
+      "Speed-Range": "4-7",
+      "Defense": 64,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Ineff",
+        "Blunt": "Fatal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "The One Giving Commands",
+          "Description": "All F Sector units except this one gain 'Current'(2, 2) at turn start, inflict 1 more Burn Count when inflicting Burn, and deal 30% more damage to units with Burn."
+        }
+      ],
+      "Skills": {
+        "Spear Stabbing": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Charm",
+          "Base-Power": 6,
+          "Coin-Count": 4,
+          "Coin-Power": 2,
+          "Offense-Level": 55,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 1,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 2,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        },
+        "Burrowing Stab": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Ice",
+          "Base-Power": 7,
+          "Coin-Count": 3,
+          "Coin-Power": 3,
+          "Offense-Level": 65,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 2,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 3,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        },
+        "Counter": {
+          "Type": "Counter",
+          "Damage-Type": "Pierce",
+          "Element": "Fire",
+          "Base-Power": 8,
+          "Coin-Count": 2,
+          "Coin-Power": 4,
+          "Offense-Level": 55,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Final-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 3,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        },
+        "Victory Within Seconds": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Fire",
+          "Base-Power": 9,
+          "Coin-Count": 1,
+          "Coin-Power": 12,
+          "Offense-Level": 70,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 3,
+                "Count": 2
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 4,
+                "Count": 3
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        }
+      }
+    },
+    "L Sector Detective Kyla": {
+      "Name": "Kyla",
+      "Class": "L Sector",
+      "Tier": 2,
+      "HP": 288,
+      "Speed-Range": "1-4",
+      "Defense": 64,
+      "Resistances": {
+        "Slash": "Fatal",
+        "Pierce": "Ineff",
+        "Blunt": "Normal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Gun's of the L Sector",
+          "Description": "Start's encounter with 'Bullets' (10, 1)."
+        }
+      ],
+      "Skills": {
+        "Gun Shots": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Water",
+          "Base-Power": 7,
+          "Coin-Count": 2,
+          "Coin-Power": 3,
+          "Offense-Level": 55,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Winded",
+                "Potency": 5,
+                "Count": 0
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        },
+        "Unloading Ammunition": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Fire",
+          "Base-Power": 5,
+          "Coin-Count": 3,
+          "Coin-Power": 4,
+          "Offense-Level": 65,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Winded",
+                "Potency": 6,
+                "Count": 0
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        },
+        "Reloading": {
+          "Type": "Evade",
+          "Damage-Type": "None",
+          "Element": "Earth",
+          "Base-Power": 2,
+          "Coin-Count": 1,
+          "Coin-Power": 10,
+          "Offense-Level": 2,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Reload",
+                "Potency": 3
+              }
+            ]
+          },
+          "Flavor": "A detective's calm calculation — reloads and finds an opening."
+        },
+        "Clearing Room": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Earth",
+          "Base-Power": 9,
+          "Coin-Count": 5,
+          "Coin-Power": 2,
+          "Offense-Level": 70,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Winded",
+                "Potency": 7,
+                "Count": 3
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        }
+      }
+    },
+    "L Sector Dectective Goole": {
+      "Name": "Goole",
+      "Class": "L Sector",
+      "Tier": 2,
+      "HP": 277,
+      "Speed-Range": "2-5",
+      "Defense": 64,
+      "Resistances": {
+        "Slash": "Fatal",
+        "Pierce": "Ineff",
+        "Blunt": "Normal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Gun's of the L Sector",
+          "Description": "Start's encounter with 'Bullets' (10, 1)."
+        }
+      ],
+      "Skills": {
+        "Precise Shot": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Void",
+          "Base-Power": 6,
+          "Coin-Count": 1,
+          "Coin-Power": 8,
+          "Offense-Level": 55,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Winded",
+                "Potency": 3,
+                "Count": 0
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        },
+        "Kicking Down": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Earth",
+          "Base-Power": 5,
+          "Coin-Count": 2,
+          "Coin-Power": 4,
+          "Offense-Level": 65,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Winded",
+                "Potency": 4,
+                "Count": 0
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        },
+        "Reloading": {
+          "Type": "Evade",
+          "Damage-Type": "None",
+          "Element": "Earth",
+          "Base-Power": 4,
+          "Coin-Count": 1,
+          "Coin-Power": 10,
+          "Offense-Level": 2,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Reload",
+                "Potency": 4
+              }
+            ]
+          },
+          "Flavor": "A detective's calm calculation — reloads and finds an opening."
+        },
+        "These Bullets are a Costly Expense": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Earth",
+          "Base-Power": 8,
+          "Coin-Count": 6,
+          "Coin-Power": 2,
+          "Offense-Level": 70,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Winded",
+                "Potency": 9,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        }
+      }
+    },
+    "L Sector Detective Inspector Linda": {
+      "Name": "Linda",
+      "Class": "L Sector",
+      "Tier": 2,
+      "HP": 288,
+      "Speed-Range": "1-4",
+      "Defense": 64,
+      "Resistances": {
+        "Slash": "Fatal",
+        "Pierce": "Ineff",
+        "Blunt": "Normal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Gun's of the L Sector",
+          "Description": "Start's encounter with 'Bullets' (10, 1)."
+        },
+        {
+          "Name": "Quantus Charge",
+          "Description": "Deal 5% more damage for every 1 'Quantus' Count on self."
+        }
+      ],
+      "Skills": {
+        "Quick Shot": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Fire",
+          "Base-Power": 5,
+          "Coin-Count": 2,
+          "Coin-Power": 4,
+          "Offense-Level": 55,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Winded",
+                "Potency": 3,
+                "Count": 0
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Quantus",
+                "Potency": 0,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        },
+        "Shoot Without Care": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Water",
+          "Base-Power": 6,
+          "Coin-Count": 3,
+          "Coin-Power": 3,
+          "Offense-Level": 65,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Winded",
+                "Potency": 4,
+                "Count": 0
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Quantus",
+                "Potency": 0,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        },
+        "Reloading": {
+          "Type": "Evade",
+          "Damage-Type": "None",
+          "Element": "Earth",
+          "Base-Power": 4,
+          "Coin-Count": 1,
+          "Coin-Power": 10,
+          "Offense-Level": 2,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Reload",
+                "Potency": 4
+              }
+            ]
+          },
+          "Flavor": "A detective's calm calculation — reloads and finds an opening."
+        },
+        "Outburst Shooting": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Fire",
+          "Base-Power": 8,
+          "Coin-Count": 5,
+          "Coin-Power": 2,
+          "Offense-Level": 70,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Winded",
+                "Potency": 3,
+                "Count": 3
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Quantus",
+                "Potency": 0,
+                "Count": 3
+              }
+            ]
+           },
+           "Flavor": "\"A fiery strike that burns the target.\""
+        }
+      }
+    },
+    "Pyric Offense Captain Tia": {
+      "Name": "Tia",
+      "Class": "Pyric",
+      "Tier": 3,
+      "HP": 278,
+      "Speed-Range": "3-6",
+      "Defense": 65,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Ineff",
+        "Blunt": "Fatal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Blazed",
+          "Description": "When attacking an opponent with burn on them, activate it if their is more than 5 stacks of burn on the target"
+        },
+        {
+          "Name": "Legendary Weapon: Heaven Flare Sword",
+          "Description": "When critting with the status 'Flare Sword' active, deal 1.2x damage instead of the usual 1.1x, then inflict 'Burn' (1, 2) to the target. This unit will start combat with the status 'Flare Sword' (1, 1). Apply one more potency and count of 'Burn' when attacking with 'Flare Sword' active."
+        }
+      ],
+      "Skills": {
+        "Flaming Strike": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Water",
+          "Base-Power": 11,
+          "Coin-Count": 1,
+          "Coin-Power": 3,
+          "Offense-Level": 43,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 2,
+                "Count": 1
+              },
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 1,
+                "Count": 2
+              }
+            ]
+          },
+          "Flavor": "A powerful strike engulfed in flames."
+        },
+        "Charging Flame": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Charm",
+          "Base-Power": 7,
+          "Coin-Count": 2,
+          "Coin-Power": 4,
+          "Offense-Level": 51,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 3,
+                "Count": 0
+              },
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 2,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A heavy strike that ignites the target."
+        },
+        "Deadly Duel Progressing": {
+          "Type": "Counter",
+          "Damage-Type": "Slash",
+          "Element": "Fire",
+          "Base-Power": 14,
+          "Coin-Count": 1,
+          "Coin-Power": -8,
+          "Offense-Level": 60,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 3,
+                "Count": 1
+              },
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 0,
+                "Count": 3
+              }
+            ]
+          },
+          "Flavor": "A powerful strike that intensifies the burn."
+        },
+        "The Pyric Offense Captain": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Fire",
+          "Base-Power": 4,
+          "Coin-Count": 4,
+          "Coin-Power": 3,
+          "Offense-Level": 60,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 5,
+                "Count": 2
+              },
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 4,
+                "Count": 2
+              }
+            ]
+          },
+          "Flavor": "A powerful strike that embodies the spirit of fire."
+        }
+      }
+    },
+    "Pyric Enforcer Racheal": {
+      "Name": "Racheal",
+      "Class": "Pyric",
+      "Tier": 2,
+      "HP": 259,
+      "Speed-Range": "2-5",
+      "Defense": 62,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Fatal",
+        "Blunt": "Ineff"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Blazed",
+          "Description": "When attacking an opponent with burn on them, activate it if their is more than 5 stacks of burn on the target"
+        },
+        {
+          "Name": "Path Recognition",
+          "Description": "Gain 'Haste'(1, 1) when attacking a target with 'Burn'. Gain 'Haste'(1, 1) at turn start. Deal 10% more damage for every 1 'Haste' Potency on self (up to a max of 30% more damage)"
+        }
+      ],
+      "Skills": {
+        "Ember Pierce": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Void",
+          "Base-Power": 10,
+          "Coin-Count": 1,
+          "Coin-Power": 3,
+          "Offense-Level": 42,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 2,
+                "Count": 0
+              }
+            ]
+          }
+        },
+        "Spear Thrust": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Ice",
+          "Base-Power": 6,
+          "Coin-Count": 1,
+          "Coin-Power": 8,
+          "Offense-Level": 51,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+          }
+        },
+        "Movement": {
+          "Type": "Evade",
+          "Damage-Type": "None",
+          "Element": "Earth",
+          "Base-Power": 5,
+          "Coin-Count": 1,
+          "Coin-Power": 10,
+          "Offense-Level": 2,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Haste",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+          }
+        },
+        "Gut Them Like A Fish": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Fire",
+          "Base-Power": 10,
+          "Coin-Count": 2,
+          "Coin-Power": 3,
+          "Offense-Level": 59,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 3,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 0,
+                "Count": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Guillevien Branch F Commander George": {
+      "Name": "George",
+      "Class": "Guillevien",
+      "Tier": 3,
+      "HP": 301,
+      "Speed-Range": "3-6",
+      "Defense": 60,
+      "Resistances": {
+        "Slash": "Ineff",
+        "Pierce": "Normal",
+        "Blunt": "Fatal"
+      },
+      "Special-Effects": [
+        {
+          "Name":"The Commander's Weapons",
+          "Description": "Gain 'Duel Preping' at turn start. Spend 'Duel Preping' to convert this unit's first attack to 'Singling Target'."
+        },
+        {
+          "Name": "A Knight's Resolve",
+          "Description": "At 50% or less HP, gain 60 morale and heal 50 HP, gain +2 Base Power in Clashes"
+        }
+      ],
+      "Skills": {
+        "Singling Target": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Void",
+          "Base-Power": 18,
+          "Coin-Count": 1,
+          "Coin-Power": 10,
+          "Offense-Level": 0,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Declared Duel - George",
+                "Potency": 1,
+                "Count": 1
+              },
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                 "Potency": 0,
+                 "Count": 1
+              },
+              {
+                "Effect": "Gain",
+                "Status": "Dueling",
+                "Potency": 0,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+         },
+         "Back Slash": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Water",
+          "Base-Power": 10,
+          "Coin-Count": 2,
+          "Coin-Power": 2,
+          "Offense-Level": 45,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 0,
+                "Count": 1
+              }
+             ],
+             "Flavor": "\"A powerful strike that targets the enemy's back.\""
+           }
+         },
+         "Frenzy Stabbing": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Earth",
+          "Base-Power": 10,
+          "Coin-Count": 2,
+          "Coin-Power": 3,
+          "Offense-Level": 51,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 0,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A flurry of stabs that overwhelms the target.\""
+         },
+         "Blade-Strikes": {
+          "Type": "Counter",
+          "Damage-Type": "Slash",
+          "Element": "Ice",
+          "Base-Power": 10,
+          "Coin-Count": 1,
+          "Coin-Power": 7,
+          "Offense-Level": 54,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 3,
+                "Count": 0
+              }
+            ]
+          }
+         },
+         "Dance Of Blade - Guillevien": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Ice",
+          "Base-Power": 9,
+          "Coin-Count": 1,
+          "Coin-Power": 12,
+          "Offense-Level": 59,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 2,
+                "Count": 0
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 1,
+                "Count": 0
+              }
+            ]
+           },
+           "Flavor": "\"A flurry of stabs that overwhelms the target.\""
+         }
+      }
+    },
+    "The 1st Harbinger - Flame Lord Macduff": {
+      "Name": "Macduff",
+      "Class": "Harbinger",
+      "Tier": 3,
+      "HP": 312,
+      "Speed-Range": "3-6",
+      "Defense": 60,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Ineff",
+        "Blunt": "Fatal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Commander Of The Pyric Fleet",
+          "Description": "All allied 'Pyric' gain the status 'Lord's Guidance' at turn start. Unit's with the status deal 20% more damage and inflict 1 more potency of Burn when inflicting Burn"
+        },
+        {
+          "Name": "Pyric Fury",
+          "Description": "This unit gains the status 'Harbinger's Mark' at combat start. When using 'Expelling Flame' or 'Furious Slash' on a target with Burn (25+, 15+), activate 'The Furious Slash Of The 1st Harbinger' instead"
+        },
+        {
+          "Name": "Blazed",
+          "Description": "When attacking an opponent with burn on them, activate it if their is more than 5 stacks of burn on the target"
+        }
+      ],
+      "Skills": {
+        "Cutting Up": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Water",
+          "Base-Power": 10,
+          "Coin-Count": 1,
+          "Coin-Power": 4,
+          "Offense-Level": 42,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 3,
+                "Count": 0
+              }
+            ]
+          },
+          "Flavor": "\"A swift strike that cuts through the flames.\""
+        },
+        "Flare Cutter": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Charm",
+          "Base-Power": 5,
+          "Coin-Count": 2,
+          "Coin-Power": 5,
+          "Offense-Level": 53,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 2,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "\"A powerful strike that cuts through the flames.\""
+        },
+        "Expelling Flame": {
+          "Type": "Counter",
+          "Damage-Type": "Blunt",
+          "Element": "Fire",
+          "Base-Power": 11,
+          "Coin-Count": 1,
+          "Coin-Power": 6,
+          "Offense-Level": 55,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 4,
+                "Count": 2
+              }
+            ]
+          },
+          "Flavor": "\"A heavy strike that expels flames from the target.\""
+        },
+        "Furious Slash": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Fire",
+          "Base-Power": 15,
+          "Coin-Count": 1,
+          "Coin-Power": 5,
+          "Offense-Level": 60,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 6,
+                "Count": 2
+              }
+            ]
+          },
+          "Flavor": "\"A powerful strike that embodies the fury of flames.\""
+        },
+        "The Furious Slash Of The 1st Harbinger": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Fire",
+          "Base-Power": 10,
+          "Coin-Count": 3,
+          "Coin-Power": 5,
+          "Offense-Level": 70,
+          "Attack-Weight": 3,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 8,
+                "Count": 3
+              }
+            ]
+          },
+          "Flavor": "\"A powerful strike that embodies the fury of flames.\""
+        }
+      }
+    },
+    "Youth Class Extinguisher Romeo": {
+      "Name": "Romeo",
+      "Class": "The Extinguishers",
+      "Tier": 2,
+      "HP": 245,
+      "Speed-Range": "2-5",
+      "Defense": 65,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Ineff",
+        "Blunt": "Fatal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Fireproof Gear",
+          "Description": "This unit doesn't take damage from Burn of Blazed, and the special effect 'Blazed' fails on them."
+        },
+        {
+          "Name": "Extinguisher Weapon Rapier",
+          "Description": "Start's encounter with the status 'Gas Rapier'(100, 1) and 'Gas Reserves' (0, 500). On hit, Spend 5 'Gas Rapier' Potency to inflict 'Fumes'(0, 4). On Critical Hit, Spend 6 'Gas Rapier' Potency to inflict 'Fumes' (0, 6). At Turn start, gain 'Gas Rapier' Potency equal to the amount of potency of the status has less than 100, then lose 'Gas Reserves' Count equal to 'Gas Rapier' Potency gained. When attacking a unit with 10+ 'Fumes' Count, Spend 3 'Fumes' Count on target to inflict 5 'Quaken' Count and gain 3 'Current' Count. Deal 10% more Pierce damage for every 4 'Fumes' Count on target, up to a max of 60% more damage. 'Gas Rapier' cannot go over 100 Potency, and 'Fumes' Count cannot go over 35"
+        }
+      ],
+      "Skills": {
+        "Gaseous Substance - Piercing": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Void",
+          "Base-Power": 10,
+          "Coin-Count": 2,
+          "Coin-Power": 3,
+          "Offense-Level": 42,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 0,
+                "Count": 2
+              },
+              {
+                "Effect": "Inflict",
+                "Status": "Current",
+                "Potency": 0,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A powerful strike that shakes the ground.\""
+        },
+        "Thrust and Release": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Water",
+          "Base-Power": 11,
+          "Coin-Count": 2,
+          "Coin-Power": 3,
+          "Offense-Level": 48,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 4,
+                "Count": 0
+              }
+            ]
+          },
+          "Flavor": "\"A powerful strike that shakes the ground.\""
+        },
+        "Evade": {
+          "Type": "Evade",
+          "Damage-Type": "None",
+          "Element": "Earth",
+          "Base-Power": 7,
+          "Coin-Count": 1,
+          "Coin-Power": 8,
+          "Offense-Level": 4,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "\"A defensive maneuver that allows for quick movement.\""
+        },
+        "Execution Notice": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Earth",
+          "Base-Power": 9,
+          "Coin-Count": 3,
+          "Coin-Power": 3,
+          "Offense-Level": 59,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 5,
+                "Count": 1
+              },
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 8,
+                "Count": 2
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 4,
+                "Count": 0
+              },
+              {
+                "Effect": "Devastate"
+              },
+              {
+                "Effect": "Devastate"
+              }
+            ]
+          },
+          "Flavor": "\"A powerful strike that shakes the ground.\""
+        }
+      }
+    },
+    "WOTB Path Of Wounding Commander Goole": {
+      "Name": "Goole",
+      "Class": "Way Of The Blade",
+      "Tier": 3,
+      "HP": 275,
+      "Speed-Range": "3-6",
+      "Defense": 50,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Ineff",
+        "Blunt": "Fatal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Blade Encasement: Spilling More Of The Blood",
+          "Description": "When inflicting 'Injured', Gain 1 'Dark Aura' Potency. Deal 10% more damage for every 2 'Dark Aura' Potency, maxing at 40% more damage. For every 7 'Dark Aura' Potency, gain +1 Coin Count, up to a max of +2 Coin Count. At 8+ 'Dark Aura' Potency, inflict +1 'Injured' Count."
+        }
+      ],
+      "Skills": {
+        "Bludgeon": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Void",
+          "Base-Power": 9,
+          "Coin-Count": 1,
+          "Coin-Power": 5,
+          "Offense-Level": 41,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 2,
+                "Count": 1
+              },
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 4,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A heavy strike with a blunt weapon."
+        },
+        "Accupunture": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Void",
+          "Base-Power": 5,
+          "Coin-Count": 2,
+          "Coin-Power": 5,
+          "Offense-Level": 52,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 4,
+                "Count": 0
+              },
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 6,
+                "Count": 0
+              }
+            ]
+          },
+          "Flavor": "Strikes from the shadows."
+        },
+        "Defend": {
+          "Type": "Defense",
+          "Defense-Level": 45,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Gain",
+                "Status": "Guard",
+                "Potency": 25,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A defensive stance that raises the guard."
+        },
+        "Draw - Dig Through The Flesh": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Void",
+          "Base-Power": 8,
+          "Coin-Count": 1,
+          "Coin-Power": 8,
+          "Offense-Level": 65,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 3,
+                "Count": 3
+              },
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 5,
+                "Count": 2
+              }
+            ]
+          },
+          "Flavor": "A powerful strike with a cursed blade."
+        }
+      }
+    },
+    "Pyric Sheild Antonia": {
+      "Name": "Antonia",
+      "Class": "Pyric",
+      "Tier": 2,
+      "HP": 289,
+      "Speed-Range": "3-6",
+      "Defense": 70,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Ineff",
+        "Blunt": "Fatal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Blazed",
+          "Description": "When attacking an opponent with burn on them, activate it if their is more than 5 stacks of burn on the target"
+        },
+        {
+          "Name": "The Quaking Grounds",
+          "Description": "Start's encounter with the status 'Pyro Shield' (1, 1) and gains 'Protection' (1, 1) at turn start."
+        }
+      ],
+      "Skills": {
+        "Flaming Shield Bash": {
+            "Type": "Attack",
+            "Damage-Type": "Blunt",
+            "Element": "Void",
+            "Base-Power": 9,
+            "Coin-Count": 2,
+            "Coin-Power": 3,
+            "Offense-Level": 52,
+            "Attack-Weight": 1,
+            "Sanity-Cost": 0,
+            "Effects": {
+              "On-Hit": [
+                {
+                  "Effect": "Inflict",
+                  "Status": "Burn",
+                  "Potency": 1,
+                  "Count": 1
+                },
+                {
+                  "Effect": "Inflict",
+                  "Status": "Quaken",
+                  "Potency": 1,
+                  "Count": 1
+                }
+              ]
+             },
+             "Flavor": "\"A heavy strike that expels flames from the target.\""
+        },
+        "Quaking Flame": {
+            "Type": "Attack",
+            "Damage-Type": "Blunt",
+            "Element": "Ice",
+            "Base-Power": 10,
+            "Coin-Count": 1,
+            "Coin-Power": 5,
+            "Offense-Level": 59,
+            "Attack-Weight": 1,
+            "Sanity-Cost": 0,
+            "Effects": {
+              "On-Hit": [
+                {
+                  "Effect": "Inflict",
+                  "Status": "Burn",
+                  "Potency": 3,
+                  "Count": 1
+                },
+                {
+                  "Effect": "Inflict",
+                  "Status": "Quaken",
+                  "Potency": 2,
+                  "Count": 2
+                }
+              ]
+             },
+             "Flavor": "\"A heavy strike that shakes the ground.\""
+        },
+        "Defend": {
+            "Type": "Defense",
+            "Defense-Level": 45,
+            "Sanity-Cost": 0,
+            "Effects": {
+              "On-Use": [
+                {
+                  "Effect": "Gain",
+                  "Status": "Guard",
+                  "Potency": 25,
+                  "Count": 1
+                }
+              ]
+            },
+            "Flavor": "\"A defensive stance that raises the guard.\""
+        },
+        "Shield Charge": {
+            "Type": "Attack",
+            "Damage-Type": "Blunt",
+            "Element": "Fire",
+            "Base-Power": 9,
+            "Coin-Count": 2,
+            "Coin-Power": 5,
+            "Offense-Level": 64,
+            "Attack-Weight": 1,
+            "Sanity-Cost": 0,
+            "Effects": {
+              "On-Hit": [
+                {
+                  "Effect": "Inflict",
+                  "Status": "Burn",
+                  "Potency": 2,
+                  "Count": 1
+                },
+                {
+                  "Effect": "Inflict",
+                  "Status": "Quaken",
+                  "Potency": 3,
+                  "Count": 2
+                }
+              ],
+              "On-Coin-Win": [
+                {
+                  "Effect": "Devastate"
+                }
+              ]
+            },
+            "Flavor": "\"A powerful charge that expels flames from the target.\""
+        }
+      }
+    },
+    "Bat Thug Romeo": {
+      "Name": "Romeo",
+      "Class": "Thugs",
+      "Tier": 2,
+      "HP": 201,
+      "Speed-Range": "3-5",
+      "Defense": 63,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Ineff",
+        "Blunt": "Fatal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Bat Strike",
+          "Description": "Inflict 1 'Winded' On Hit if this unit is faster than the target."
+        }
+      ],
+      "Skills": {
+        "Bat Attack": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Earth",
+          "Base-Power": 5,
+          "Coin-Count": 1,
+          "Coin-Power": 8,
+          "Offense-Level": 55,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 0,
+                "Count": 2
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Winded",
+                "Potency": 0,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A vicious strike that causes bleeding.\""
+        },
+        "Homerun": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Void",
+          "Base-Power": 6,
+          "Coin-Count": 2,
+          "Coin-Power": 5,
+          "Offense-Level": 65,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 1,
+                "Count": 2
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Winded",
+                "Potency": 1,
+                "Count": 0
+              }
+            ]
+           },
+           "Flavor": "\"A powerful strike that causes bleeding.\""
+        },
+        "Evade": {
+          "Type": "Evade",
+          "Damage-Type": "None",
+          "Element": "Fire",
+          "Base-Power": 9,
+          "Coin-Count": 1,
+          "Coin-Power": 5,
+          "Offense-Level": 2,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Winded",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+          }
+        },
+        "Quick Crushing": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Fire",
+          "Base-Power": 9,
+          "Coin-Count": 2,
+          "Coin-Power": 5,
+          "Offense-Level": 70,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 2,
+                "Count": 2
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Winded",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A quick strike that causes bleeding.\""
+        }
+      }
+    },
+    "Knife Thug Sherlock": {
+      "Name": "Sherlock",
+      "Class": "Thugs",
+      "Tier": 2,
+      "HP": 201,
+      "Speed-Range": "3-5",
+      "Defense": 63,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Ineff",
+        "Blunt": "Fatal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Knife Strike",
+          "Description": "Inflict 1 'Injured' On Hit if this unit is faster than the target."
+        }
+      ],
+      "Skills": {
+        "Knife Attack": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Earth",
+          "Base-Power": 5,
+          "Coin-Count": 1,
+          "Coin-Power": 8,
+          "Offense-Level": 55,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 0,
+                "Count": 2
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 0,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A vicious strike that causes bleeding.\""
+        },
+        "Drive In": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Void",
+          "Base-Power": 6,
+          "Coin-Count": 2,
+          "Coin-Power": 5,
+          "Offense-Level": 65,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 1,
+                "Count": 2
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 1,
+                "Count": 0
+              }
+            ]
+           },
+           "Flavor": "\"A powerful strike that causes bleeding.\""
+        },
+        "Evade": {
+          "Type": "Evade",
+          "Damage-Type": "None",
+          "Element": "Fire",
+          "Base-Power": 9,
+          "Coin-Count": 1,
+          "Coin-Power": 5,
+          "Offense-Level": 2,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+          }
+        },
+        "Burial Strike": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Fire",
+          "Base-Power": 9,
+          "Coin-Count": 2,
+          "Coin-Power": 5,
+          "Offense-Level": 70,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 2,
+                "Count": 2
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "\"A quick strike that causes bleeding.\""
+        }
+      }
+    },
+    "Divinus LB Suit :: For Correct Justice Macduff": {
+      "Name": "Macduff",
+      "Class": "Divinus",
+      "Tier": 3,
+      "HP": 342,
+      "Speed-Range": "4-7",
+      "Defense": 64,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Ineff",
+        "Blunt": "Fatal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Vengeance.",
+          "Description": "Start's encounter with 'Justified Bullets' (22, 1). At encounter start, a random unit is marked with the status 'Trusted', and this unit gains 'Enraged' (0, 10). Gain 2 'Enraged' Count when spending 'Justified Bullets'. When attacking a unit with 'Trusted' at 10 or less 'Justified Bullets', auto reload 5 'Justified Bullets' and gain 1 'Enraged' Count. When killing the unit with 'Trusted', gain 2 'Enraged' Count and auto reload any lost 'Justified Bullets' up to a max of 22."
+        },
+        {
+          "Name": "A Gun Shot",
+          "Description": "When this unit has 'Justified Bullets' (22, 1), the Skill 'Reload' is filtered out and the Skill 'Chasing Shots' is filtered in. once this unit is out of 'Justified Bullets', the Skill 'Chasing Shots' is filtered out and the Skill 'Reload' is filtered in."
+        }
+      ],
+      "Skills": {
+        "Don't Run": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Fire",
+          "Base-Power": 9,
+          "Coin-Count": 1,
+          "Coin-Power": 7,
+          "Offense-Level": 70,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 3,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 0,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A precise shot that inflicts winded.\""
+        },
+        "Briefcase Strikes": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Void",
+          "Base-Power": 8,
+          "Coin-Count": 2,
+          "Coin-Power": 5,
+          "Offense-Level": 65,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 2,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A heavy strike that inflicts winded.\""
+        },
+        "Chasing Shots": {
+          "Type": "Counter",
+          "Damage-Type": "Pierce",
+          "Element": "Ice",
+          "Base-Power": 6,
+          "Coin-Count": 3,
+          "Coin-Power": 4,
+          "Offense-Level": 75,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 3,
+                "Count": 2
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 2,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A rapid series of shots that inflicts winded.\""
+        },
+        "Reload": {
+          "Type": "Evade",
+          "Damage-Type": "None",
+          "Element": "Ice",
+          "Base-Power": 7,
+          "Coin-Count": 1,
+          "Coin-Power": 10,
+          "Offense-Level": 2,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Reload",
+                "Potency": 5
+              }
+            ]
+          },
+          "Flavor": "\"A detective's calm calculation — reloads and finds an opening.\""
+        },
+        "Reckless Shooting": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Ice",
+          "Base-Power": 4,
+          "Coin-Count": 4,
+          "Coin-Power": 4,
+          "Offense-Level": 80,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 4,
+                "Count": 2
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Freezing",
+                "Potency": 3,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A decisive shot that inflicts winded.\""
+        }
+      }
+    },
+    "Divinus LB Tool :: Blazing Blade George": {
+      "Name": "George",
+      "Class": "Divinus",
+      "Tier": 3,
+      "HP": 316,
+      "Speed-Range": "3-5",
+      "Defense": 68,
+      "Resistances": {
+        "Slash": "Ineff",
+        "Pierce": "Fatal",
+        "Blunt": "Normal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Burning",
+          "Description": "Gain 'Burn' (1, 1) every turn start. after using the Skill 'Absolute Burning', increase count and potency gained at turn start by 1. After using the Skill 'Cooldown', reduce the amount of potency and count gained at turn start by 1. This unit cannot be killed through the effect of 'Burn' and will only be able to be taken to 1 HP by 'Burn' or any damaging effects related to it."
+        },
+        {
+          "Name": "Vigor",
+          "Description": "When this unit would first be killed in battle, if there is more than 5 Fire element in the teams Elemental bank, spend 5 Fire Element to gain 'Nullification' till end of turn. 'Nullification' negates all damage that would be taken that turn."
+        }
+      ],
+      "Skills": {
+        "Slamming Sword": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Water",
+          "Base-Power": 6,
+          "Coin-Count": 3,
+          "Coin-Power": 3,
+          "Offense-Level": 56,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 3,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 4,
+                "Count": 0
+              }
+            ]
+           },
+           "Flavor": "\"A precise shot that inflicts winded.\""
+        },
+        "Dual Strike": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Earth",
+          "Base-Power": 7,
+          "Coin-Count": 2,
+          "Coin-Power": 5,
+          "Offense-Level": 69,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 3,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 0,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A precise shot that inflicts winded.\""
+        },
+        "Cooldown": {
+          "Type": "Counter",
+          "Damage-Type": "Blunt",
+          "Element": "Fire",
+          "Base-Power": 22,
+          "Coin-Count": 1,
+          "Coin-Power": -14,
+          "Offense-Level": 75,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+          }
+        },
+        "Absolute Burning": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Fire",
+          "Base-Power": 9,
+          "Coin-Count": 4,
+          "Coin-Power": 3,
+          "Offense-Level": 82,
+          "Attack-Weight": 3,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 3,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 3,
+                "Count": 2
+              },
+              {
+                "Effect": "Equal Application"
+              }
+            ]
+           },
+           "Flavor": "\"A precise shot that inflicts winded.\""
+        }
+      }
+    },
+    "Raidrunner Ghoul: The Ghost Long Forgotten Goole": {
+      "Name": "Goole",
+      "Class": "Spectre",
+      "Tier": 3,
+      "HP": 372,
+      "Speed-Range": "3-6",
+      "Defense": 60,
+      "Resistances": {
+        "Slash": "Ineff",
+        "Pierce": "Normal",
+        "Blunt": "Fatal"
+      },
+      "Special-Effects":[
+        {
+          "Name": "Phantom Parrade",
+          "Description": "All other 'Spectre' allies gain the status 'Parrading'"
+        }
+      ],
+      "Skills": {
+        "Phantom Wounding": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Water",
+          "Base-Power": 9,
+          "Coin-Count": 3,
+          "Coin-Power": 2,
+          "Offense-Level": 59,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 0,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "\"A strike that wounds the target's soul.\""
+        },
+        "Rushing Slash": {
+            "Type": "Attack",
+            "Damage-Type": "Slash",
+            "Element": "Earth",
+            "Base-Power": 13,
+            "Coin-Count": 1,
+            "Coin-Power": 4,
+            "Offense-Level": 63,
+            "Attack-Weight": 1,
+            "Sanity-Cost": 0,
+            "Effects": {
+              "On-Hit": [
+                {
+                  "Effect": "Inflict",
+                  "Status": "Injured",
+                  "Potency": 2,
+                  "Count": 0
+                }
+              ]
+             },
+             "Flavor": "\"A swift strike that cuts through the air.\""
+        },
+        "Phantom Spirit": {
+            "Type": "Counter",
+            "Damage-Type": "Pierce",
+            "Element": "Void",
+            "Base-Power": 14,
+            "Coin-Count": 2,
+            "Coin-Power": 3,
+            "Offense-Level": 66,
+            "Attack-Weight": 1,
+            "Sanity-Cost": 0,
+            "Effects": {
+              "On-Hit": [
+                {
+                  "Effect": "Inflict",
+                  "Status": "Injured",
+                  "Potency": 3,
+                  "Count": 1
+                }
+              ]
+             },
+             "Flavor": "\"A powerful strike that damages the target's spirit.\""
+        },
+        "Homeland Swordplay": {
+            "Type": "Attack",
+            "Damage-Type": "Slash",
+            "Element": "Void",
+            "Base-Power": 11,
+            "Coin-Count": 1,
+            "Coin-Power": 13,
+            "Offense-Level": 80,
+            "Attack-Weight": 1,
+            "Sanity-Cost": 0,
+            "Effects": {
+              "On-Hit": [
+                {
+                  "Effect": "Inflict",
+                  "Status": "Injured",
+                  "Potency": 3,
+                  "Count": 2
+                }
+              ]
+             },
+             "Flavor": "\"A powerful strike that embodies the spirit of the homeland.\""
+        }
+      }
+    },
+    "Ghoul Sherlock": {
+      "Name": "Sherlock",
+      "Class": "Spectre",
+      "Tier": 2,
+      "HP": 254,
+      "Speed-Range": "3-6",
+      "Defense": 20,
+      "Resistances": {
+        "Slash": "Ineff",
+        "Pierce": "Normal",
+        "Blunt": "Fatal"
+      },
+      "Special-Effects": [],
+      "Skills": {
+        "Hollow Scream": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Void",
+          "Base-Power": 8,
+          "Coin-Count": 2,
+          "Coin-Power": 4,
+          "Offense-Level": 60,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "\"A terrifying scream that stuns the target.\""
+        },
+        "Phantom Wounding": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Earth",
+          "Base-Power": 9,
+          "Coin-Count": 3,
+          "Coin-Power": 2,
+          "Offense-Level": 70,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "\"A strike that wounds the target's soul.\""
+        },
+        "Evade": {
+          "Type": "Evade",
+          "Damage-Type": "None",
+          "Element": "Charm",
+          "Base-Power": 9,
+          "Coin-Count": 1,
+          "Coin-Power": 6,
+          "Offense-Level": 2,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Coin-Win": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 3,
+                "Count": 2
+              }
+            ]
+          }
+        },
+        "Endless Torment": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Void",
+          "Base-Power": 6,
+          "Coin-Count": 2,
+          "Coin-Power": 5,
+          "Offense-Level": 77,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 2,
+                "Count": 2
+              }
+            ]
+          },
+          "Flavor": "\"A terrifying scream that stuns the target.\""
+        }
+      }
+    },
+    "Guillevien Branch F Commander Racheal": {
+      "Name": "Racheal",
+      "Class": "Guillevien",
+      "Tier": 3,
+      "HP": 374,
+      "Speed-Range": "3-6",
+      "Defense": 75,
+      "Resistances": {
+        "Slash": "Ineff",
+        "Pierce": "Normal",
+        "Blunt": "Fatal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Proving Myself",
+          "Description": "Start's encounter with 'Growing Reputation' (0, 1). When an opposing unit lands a attack on this unit, they gain the status 'Gaze Of The Commander'. When a unit with 'Gaze Of The Commander' attacks a unit other than this unit, they lose 'Gaze Of The Commander'. When a unit with attacks this unit Gaze Of The Commander', This unit gains 1 'Growing Reputation' Potency and takes 70% less damage from that attack. At 2+ 'Growing Reputation', Gain 'Aggro' (2, 1) at turn start. 'Aggro' makes it so than there is a (10 x Potency)% percent chance for an enemy attack's target to be switched from the original target to the one with 'Aggro', then it's potency is reduced by half, rounded down. at 0 Potency, the status is lost. At 5+ 'Growing Reputation', use Skill 'Prince's Guard' to clash with any attacks targeting this unit that have not already been clashed with by this unit, also gain 3 extra 'Aggro' potency at turn start. The Skill 'Prince Guard' is filtered out at Combat Start. At 7+ 'Growing Reputation', when a unit's Skill target is redirected to this unit through the effect of 'Aggro', this unit gains the status 'Well Prepared' until turn end. This unit takes 20% less damage from skills if they have the status 'Well Prepared'"
+        },
+        {
+          "Name": "A Knight's Resolve",
+          "Description": "At 50% or less HP, gain 60 morale and heal 50 HP, gain +2 Base Power in Clashes"
+        }
+      ],
+      "Skills": {
+        "Prince Guard": {
+          "Type": "Counter",
+          "Damage-Type": "Blunt",
+          "Element": "Ice",
+          "Base-Power": 11,
+          "Coin-Count": 1,
+          "Coin-Power": 9,
+          "Offense-Level": 30,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        },
+        "Bright Greatsword Slash": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Void",
+          "Base-Power": 12,
+          "Coin-Count": 1,
+          "Coin-Power": 3,
+          "Offense-Level": 56,
+          "Attack-Weight": 3,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 2,
+                "Count": 0
+              }
+            ]
+          },
+          "Flavor": "\"A precise strike that targets a single enemy.\""
+        },
+        "Fatal Pierce": {
+            "Type": "Attack",
+            "Damage-Type": "Pierce",
+            "Element": "Ice",
+            "Base-Power": 7,
+            "Coin-Count": 2,
+            "Coin-Power": 5,
+            "Offense-Level": 65,
+            "Attack-Weight": 1,
+            "Sanity-Cost": 0,
+            "Effects": {
+              "On-Hit": [
+                {
+                  "Effect": "Inflict",
+                  "Status": "Injured",
+                  "Potency": 2,
+                  "Count": 1
+                }
+              ]
+             },
+             "Flavor": "\"A powerful strike that pierces through the target.\""
+        },
+        "Defend": {
+          "Type": "Defense",
+          "Defense-Level": 40,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Gain",
+                "Status": "Guard",
+                "Potency": 30,
+                "Count": 1
+              },
+              {
+                "Effect": "Gain",
+                "Status": "Aggro",
+                "Potency": 2,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A defensive stance that raises the guard."
+        },
+        "Execution Slash": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Earth",
+          "Base-Power": 11,
+          "Coin-Count": 3,
+          "Coin-Power": 3,
+          "Offense-Level": 73,
+          "Attack-Weight": 3,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 3,
+                "Count": 2
+              },
+              {
+                "Effect": "Gain",
+                "Status": "Aggro",
+                "Potency": 2,
+                "Count": 1
+              }
+            ],
+            "Flavor": "\"A powerful strike that executes the target.\""
+          }
+        }
+      }
+    },
+    "Guillevien Branch N Commander Snowball": {
+      "Name": "Snowball",
+      "Class": "Guillevien",
+      "Tier": 3,
+      "HP": 356,
+      "Speed-Range": "3-6",
+      "Defense": 69,
+      "Resistances": {
+        "Slash": "Fatal",
+        "Pierce": "Ineff",
+        "Blunt": "Normal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Our Army Of Offense",
+          "Description": "At turn start, each 'Guillevien' Class unit gains the following: 'George': 1 'Dueling' Potency if they have the status 'Dueling, 'Racheal': 1 'Growing Reputation' potency. This unit gains the status 'Motivation' (0, 1) at encounter start. Each time a Guillevien attacks the same unit this one attacked, gain 1 'Motivation' potency. At 5+ 'Motivation' potency at turn start, consume all 'Motivation' potency on self: all 'Guillevien' Class units gain 30 Morale"
+        },
+        {
+          "Name": "A Knight's Resolve",
+          "Description": "At 50% or less HP, gain 60 morale and heal 50 HP, gain +2 Base Power in Clashes"
+        },
+        {
+          "Name": "I've got your back...",
+          "Description": "'Guillevien Branch N Commander Linda' gains 'Slash Damage Up' (3, 1) every turn start"
+        }
+      ],
+      "Skills": {
+        "Rush Them Down!": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Water",
+          "Base-Power": 12,
+          "Coin-Count": 1,
+          "Coin-Power": 3,
+          "Offense-Level": 56,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 3,
+                "Count": 0
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 0,
+                "Count": 1 
+              }
+            ]
+          }
+        },
+        "Bleeding Thrust": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Void",
+          "Base-Power": 12,
+          "Coin-Count": 1,
+          "Coin-Power": 3,
+          "Offense-Level": 66,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 2,
+                "Count": 0
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 1,
+                "Count": 1 
+              }
+            ]
+          }
+        },
+        "Counter Strike": {
+          "Type": "Counter",
+          "Damage-Type": "Slash",
+          "Element": "Earth",
+          "Base-Power": 7,
+          "Coin-Count": 3,
+          "Coin-Power": 3,
+          "Offense-Level": 70,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        },
+        "We'll Keep Going": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Earth",
+          "Base-Power": 19,
+          "Coin-Count": 1,
+          "Coin-Power": 11,
+          "Offense-Level": 76,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 1,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 5,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "\"A precise strike that targets a single enemy.\""
+        }
+      }
+    },
+    "Guillevien Branch N Commander Linda": {
+      "Name": "Linda",
+      "Class": "Guillevien",
+      "Tier": 3,
+      "HP": 356,
+      "Speed-Range": "3-6",
+      "Defense": 69,
+      "Resistances": {
+        "Slash": "Fatal",
+        "Pierce": "Ineff",
+        "Blunt": "Normal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Our Army Of Offense",
+          "Description": "At turn start, each 'Guillevien' Class unit gains the following: 'George': 1 'Dueling' Potency if they have the status 'Dueling, 'Racheal': 1 'Growing Reputation' potency. This unit gains the status 'Motivation' (0, 1) at encounter start. Each time a Guillevien attacks the same unit this one attacked, gain 1 'Motivation' potency. At 5+ 'Motivation' potency at turn start, consume all 'Motivation' potency on self: all 'Guillevien' Class units gain 30 Morale"
+        },
+        {
+          "Name": "A Knight's Resolve",
+          "Description": "At 50% or less HP, gain 60 morale and heal 50 HP, gain +2 Base Power in Clashes"
+        },
+        {
+          "Name": "...You've got mine",
+          "Description": "'Guillevien Branch N Commander Snowball' gains 'Slash Damage Up' (3, 1) every turn start"
+        }
+      ],
+      "Skills": {
+        "Right Here": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Fire",
+          "Base-Power": 10,
+          "Coin-Count": 2,
+          "Coin-Power": 3,
+          "Offense-Level": 56,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 3,
+                "Count": 0
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 0,
+                "Count": 1 
+              }
+            ]
+          }
+        },
+        "Hundred Cuts": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Charm",
+          "Base-Power": 9,
+          "Coin-Count": 3,
+          "Coin-Power": 2,
+          "Offense-Level": 66,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 2,
+                "Count": 0
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 1,
+                "Count": 1 
+              }
+            ]
+          }
+        },
+        "Counter Force": {
+          "Type": "Counter",
+          "Damage-Type": "Slash",
+          "Element": "Earth",
+          "Base-Power": 7,
+          "Coin-Count": 1,
+          "Coin-Power": 9,
+          "Offense-Level": 70,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        },
+        "Thousand Cuts": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Earth",
+          "Base-Power": 18,
+          "Coin-Count": 4,
+          "Coin-Power": 3,
+          "Offense-Level": 76,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 1,
+                "Count": 1
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 5,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "\"A precise strike that targets a single enemy.\""
+        }
+      }
+    },
+    "Skull and Bones Pirate Romeo": {
+      "Name": "Romeo",
+      "Class": "Skull and Bones",
+      "Tier": 2,
+      "HP": 302,
+      "Speed-Range": "3-6",
+      "Defense": 69,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Fatal",
+        "Blunt": "Ineff"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Following My Current",
+          "Description": "Gain Current (1, 1) every turn start"
+        },
+        {
+          "Name": "You know nothing of the waters",
+          "Description": "On the first 5 turns of combat, start with +1 Skill Slot than this unit would naturally have, and gain 2 Current Count on hit. If this unit kills an enemy unit within the period of the first 5 turns, the effects are permanent and last till battle end."
+        }
+      ],
+      "Skills": {
+        "Raging Slash": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Water",
+          "Base-Power": 6,
+          "Coin-Count": 3,
+          "Coin-Power": 3,
+          "Offense-Level": 53,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        },
+        "Tidal Break": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Void",
+          "Base-Power": 6,
+          "Coin-Count": 1,
+          "Coin-Power": 6,
+          "Offense-Level": 63,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 1,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A powerful strike that targets multiple enemies.\""
+        },
+        "Guard": {
+          "Type": "Defense",
+          "Defense-Level": 40,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Gain",
+                "Status": "Guard",
+                "Potency": 30,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "\"A defensive stance that raises the guard.\""
+        },
+        "The life of a Pirate...": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Earth",
+          "Base-Power": 5,
+          "Coin-Count": 4,
+          "Coin-Power": 3,
+          "Offense-Level": 73,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 2,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A powerful strike that targets multiple enemies.\""
+        }
+      }
+    },
+    "Birling and Co. Sea Farer Linda": {
+      "Name": "Linda",
+      "Class": "Birling and Co.",
+      "Tier": 2,
+      "HP": 316,
+      "Speed-Range": "2-4",
+      "Defense": 71,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Ineff",
+        "Blunt": "Fatal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Birling Coveted Silven Metal - Harpoons",
+          "Description": "Start's encounter with 'Silven Harpoons' (12, 1). 'Silven Harpoons' are spent on Pierce attacks, like bullet statuses, and when spending 1 to deal damage, inflict 'Injured' (1, 0) on hit (gained in a similar vein to Stone Bullets)."
+        },
+        {
+          "Name": "Blind Spot Attack",
+          "Description": "If this unit performs a Skill that is not in a clash (unnopposed), deal 30% more damage."
+        }
+      ],
+      "Skills": {
+        "Firing Harpoons": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Ice",
+          "Base-Power": 5,
+          "Coin-Count": 2,
+          "Coin-Power": 5,
+          "Offense-Level": 59,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 1,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        },
+        "Piercing Shot": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Earth",
+          "Base-Power": 9,
+          "Coin-Count": 1,
+          "Coin-Power": 7,
+          "Offense-Level": 61,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 2,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        },
+        "Reloading": {
+          "Type": "Evade",
+          "Damage-Type": "None",
+          "Element": "Fire",
+          "Base-Power": 7,
+          "Coin-Count": 1,
+          "Coin-Power": 10,
+          "Offense-Level": 2,
+          "Attack-Weight": 0,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Reload",
+                "Potency": 5
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        },
+        "Harpoon Barrage": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Water",
+          "Base-Power": 6,
+          "Coin-Count": 3,
+          "Coin-Power": 2,
+          "Offense-Level": 72,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 3,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        }
+      }
+    },
+    "Sailor Macduff": {
+      "Name": "Macduff",
+      "Class": "Sailor",
+      "Tier": 2,
+      "HP": 297,
+      "Speed-Range": "2-5",
+      "Defense": 69,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Fatal",
+        "Blunt": "Ineff"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Following My Current",
+          "Description": "Gain Current (1, 1) every turn start"
+        }
+      ],
+      "Skills": {
+        "Swinging Ores": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Charm",
+          "Base-Power": 3,
+          "Coin-Count": 2,
+          "Coin-Power": 5,
+          "Offense-Level": 60,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 0,
+                "Count": 2
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 2,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        },
+        "Thirst for Battle": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Fire",
+          "Base-Power": 6,
+          "Coin-Count": 4,
+          "Coin-Power": 2,
+          "Offense-Level": 70,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 0,
+                "Count": 2
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 1,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        },
+        "Guard": {
+          "Type": "Defense",
+          "Defense-Level": 40,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Gain",
+                "Status": "Guard",
+                "Potency": 30,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "\"A defensive stance that raises the guard.\""
+        },
+        "Exit's That Way": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Earth",
+          "Base-Power": 5,
+          "Coin-Count": 4,
+          "Coin-Power": 3,
+          "Offense-Level": 80,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 3,
+                "Count": 3
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 2,
+                "Count": 2
+              },
+              {
+                "Effect": "Devastate"
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        }
+      }
+    },
+    "Skull and Bones Pirate Racheal": {
+      "Name": "Racheal",
+      "Class": "Skull and Bones",
+      "Tier": 2,
+      "HP": 301,
+      "Speed-Range": "3-6",
+      "Defense": 69,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Fatal",
+        "Blunt": "Ineff"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Following My Current",
+          "Description": "Gain Current (1, 1) every turn start"
+        },
+        {
+          "Name": "You know nothing of the waters",
+          "Description": "On the first 5 turns of combat, start with +1 Skill Slot than this unit would naturally have, and gain 2 Current Count on hit. If this unit kills an enemy unit within the period of the first 5 turns, the effects are permanent and last till battle end."
+        }
+      ],
+      "Skills": {
+        "Spear Stab": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Void",
+          "Base-Power": 4,
+          "Coin-Count": 1,
+          "Coin-Power": 9,
+          "Offense-Level": 53,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 0,
+                "Count": 1
+              }
+            ],
+            "On-Final-Hit": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 0,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        },
+        "Carve Through": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Earth",
+          "Base-Power": 6,
+          "Coin-Count": 4,
+          "Coin-Power": 2,
+          "Offense-Level": 63,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 1,
+                "Count": 1
+              }
+            ],
+            "On-Final-Hit": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 0,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A powerful strike that targets multiple enemies.\""
+        },
+        "Countering Stab": {
+          "Type": "Counter",
+          "Damage-Type": "Pierce",
+          "Element": "Fire",
+          "Base-Power": 6,
+          "Coin-Count": 3,
+          "Coin-Power": 3,
+          "Offense-Level": 70,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 2,
+                "Count": 1
+              }
+            ],
+            "On-Final-Hit": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 0,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        },
+        "Quick, in-and-out theft": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Water",
+          "Base-Power": 5,
+          "Coin-Count": 4,
+          "Coin-Power": 3,
+          "Offense-Level": 80,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Injured",
+                "Potency": 2,
+                "Count": 2
+              }
+            ],
+            "On-Final-Hit": [
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 0,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A precise strike that targets a single enemy.\""
+        }
+      }
+    },
+    "W Sector Anti-Theft Cyborg The Monster": {
+      "Name": "The Monster",
+      "Class": "W Sector",
+      "Tier": 3,
+      "HP": 375,
+      "Speed-Range": "2-5",
+      "Defense": 70,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Ineff",
+        "Blunt": "Fatal"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Iron Skin",
+          "Description": "Filter out the Skill 'Incomplete Explosion' at combat start. At 20 plus 'Quantus' Count, convert all 'Quantus' Count on self to 1 'Lethal Charge' Count on self. At turn start, while this unit has 'Lethal Charge', filter out the Skill 'Quantus Beam' and filter in the Skill 'Incomplete Explosion'."
+        }
+      ],
+      "Skills": {
+        "Overload Strike": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Fire",
+          "Base-Power": 13,
+          "Coin-Count": 1,
+          "Coin-Power": 2,
+          "Offense-Level": 58,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Gain",
+                "Status": "Quantus",
+                "Potency": 0,
+                "Count": 1
+              }
+            ],
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 1,
+                "Count": 1
+              },
+              {
+                "Effect": "Gain",
+                "Status": "Quantus",
+                "Potency": 0,
+                "Count": 2
+              }
+            ]
+          },
+          "Flavor": "\"A devastating strike that overwhelms the target.\""
+        },
+        "Intrusion Will Not Be Tolerated": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Water",
+          "Base-Power": 11,
+          "Coin-Count": 2,
+          "Coin-Power": 3,
+          "Offense-Level": 62,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Gain",
+                "Status": "Quantus",
+                "Potency": 0,
+                "Count": 3
+              }
+            ],
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 0,
+                "Count": 2
+              },
+              {
+                "Effect": "Gain",
+                "Status": "Quantus",
+                "Potency": 0,
+                "Count": 2
+              }
+            ]
+          },
+          "Flavor": "\"A powerful strike that punishes intruders.\""
+        },
+        "Activating Current Amplification": {
+          "Type": "Counter",
+          "Damage-Type": "Blunt",
+          "Element": "Void",
+          "Base-Power": 8,
+          "Coin-Count": 3,
+          "Coin-Power": 3,
+          "Offense-Level": 66,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Gain",
+                "Status": "Quantus",
+                "Potency": 0,
+                "Count": 1
+              },
+              {
+                "Effect": "Gain",
+                "Status": "Current",
+                "Potency": 2,
+                "Count": 2
+              }
+            ],
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 2,
+                "Count": 0
+              },
+              {
+                "Effect": "Gain",
+                "Status": "Quantus",
+                "Potency": 0,
+                "Count":2
+              }
+            ]
+          },
+          "Flavor": "\"A strike that amplifies the current and burns the target.\""
+        },
+        "Quantus Beam": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Void",
+          "Base-Power": 10,
+          "Coin-Count": 1,
+          "Coin-Power": 8,
+          "Offense-Level": 70,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Gain",
+                "Status": "Quantus",
+                "Potency": 0,
+                "Count": 3
+              }
+            ],
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 2,
+                "Count": 2
+              },
+              {
+                "Effect": "Gain",
+                "Status": "Quantus",
+                "Potency": 0,
+                "Count": 2
+              }
+            ]
+          },
+          "Flavor": "\"A devastating beam that incinerates the target.\""
+        },
+        "Incomplete Explosion": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Void",
+          "Base-Power": 20,
+          "Coin-Count": 5,
+          "Coin-Power": 2,
+          "Offense-Level": 350,
+          "Attack-Weight": 10,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Damage",
+                "Potency": 20
+              }
+            ],
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 5,
+                "Count": 3
+              }
+            ]
+          },
+          "Flavor": "\"A catastrophic explosion that devastates the battlefield.\""
+        }
+      }
+    }
+  }
+}

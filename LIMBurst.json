@@ -1,0 +1,1158 @@
+{
+  "LimitBursts": {
+    "Macduff": [
+      {
+        "Name": "Blade Of Remembrance",
+        "Type": "Attack",
+        "Damage-Type": "Slash",
+        "Element": "Earth",
+        "Cost": {
+          "Charm": 3,
+          "Ice": 1
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 19,
+        "Coin-Count": 1,
+        "Coin-Power": 6,
+        "Offense-Level": 80,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Quaken",
+              "Potency": 5,
+              "Count": 2
+            },
+            {
+              "Effect": "Inflict",
+              "Status": "Injured",
+              "Potency": 5,
+              "Count": 2
+            }
+          ],
+          "On-Coin-Win": [
+            {
+              "Effect": "Inflict",
+              "Status": "Quaken",
+              "Potency": 10,
+              "Count": 0
+            }
+          ],
+          "On-Final-Hit": [
+            {
+              "Effect": "Devastate"
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "This blade... shall lead my way."
+      },
+      {
+        "Name": "Forest Beast",
+        "Type": "Attack",
+        "Damage-Type": "Slash",
+        "Element": "Void",
+        "Cost": {
+          "Ice": 2,
+          "Fire": 1
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 14,
+        "Coin-Count": 2,
+        "Coin-Power": 4,
+        "Offense-Level": 80,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Injured",
+              "Potency": 7,
+              "Count": 3
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "Besure to watch your back... you know not of what lurks within these woods"
+      },
+      {
+        "Name": "100 Degree Flames",
+        "Type": "Attack",
+        "Damage-Type": "Pierce",
+        "Element": "Fire",
+        "Cost": {
+          "Fire": 3,
+          "Water": 1,
+          "Charm": 1
+        },
+        "Morale-Cost": 15,
+        "Base-Power": 19,
+        "Coin-Count": 5,
+        "Coin-Power": 2,
+        "Offense-Level": 120,
+        "Attack-Weight": 3,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Burn",
+              "Potency": 1,
+              "Count": 8
+            }
+          ],
+          "On-Final-Hit": {
+            "Effect": "Inflict",
+            "Status": "Burn",
+            "Potency": 0,
+            "Count": 4
+          }
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "20! 30! 50! 100! Be burnt to pieces"
+      },
+      {
+        "Name": "For Correct Justice",
+        "Type": "Attack",
+        "Damage-Type": "Pierce",
+        "Element": "Fire",
+        "Cost": {
+          "Ice": 3,
+          "Fire": 2
+        },
+        "Morale-Cost": 15,
+        "Base-Power": 16,
+        "Coin-Count": 3,
+        "Coin-Power": 5,
+        "Offense-Level": 95,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Freezing",
+              "Potency": 1,
+              "Count": 2
+            }
+          ],
+          "On-Coin-Win": [
+            {
+              "Effect": "Reload",
+              "Potency": 8,
+              "Required-User": "Divinus LB Suit :: For Correct Justice Macduff"
+            }
+          ],
+          "On-Final-Hit": {
+            "Effect": "Inflict",
+            "Status": "Freezing",
+            "Potency": 3,
+            "Count": 0
+          }
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "My trust that you've shattered... no other punishment would be more just..."
+      }
+    ],
+    "Racheal": [
+      {
+        "Name": "Lost One's Spear",
+        "Type": "Attack",
+        "Damage-Type": "Pierce",
+        "Element": "Water",
+        "Cost": {
+          "Water": 3,
+          "Ice": 1
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 14,
+        "Coin-Count": 1,
+        "Coin-Power": 12,
+        "Offense-Level": 80,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Injured",
+              "Potency": 6,
+              "Count": 1
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "What now? While you run, like I did once before..."
+      },
+      {
+        "Name": "Moonlight Symphony",
+        "Type": "Attack",
+        "Damage-Type": "Pierce",
+        "Element": "Void",
+        "Cost": {
+          "Water": 3
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 12,
+        "Coin-Count": 4,
+        "Coin-Power": 3,
+        "Offense-Level": 80,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Gain",
+              "Status": "Current",
+              "Potency": 6,
+              "Count": 3
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "Ahh... it seems like the rain has picked up..."
+      },
+      {
+        "Name": "Weak Eyes",
+        "Type": "Attack",
+        "Damage-Type": "Blunt",
+        "Element": "Void",
+        "Cost": {
+          "Ice": 3,
+          "Charm": 1
+        },
+        "Morale-Cost": 15,
+        "Base-Power": 18,
+        "Coin-Count": 2,
+        "Coin-Power": 6,
+        "Offense-Level": 90,
+        "Attack-Weight": 4,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Freezing",
+              "Potency": 4,
+              "Count": 4
+            },
+            {
+              "Effect": "Equal Application"
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "These clouds... are so warm... I think I'll rest for a bit"
+      },
+      {
+        "Name": "Wave Cutter",
+        "Type": "Attack",
+        "Damage-Type": "Slash",
+        "Element": "Water",
+        "Cost": {
+          "Earth": 1,
+          "Water": 3,
+          "Ice": 1
+        },
+        "Morale-Cost": 25,
+        "Base-Power": 14,
+        "Coin-Count": 2,
+        "Coin-Power": 6,
+        "Offense-Level": 100,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Coin-Win": [
+            {
+              "Effect": "Inflict",
+              "Status": "Wash Away",
+              "Potency": 1,
+              "Count": 2
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "All that is left to rid of myself is this shell I call a body. I shall join the waves as a creature of the sea."
+      }
+    ],
+    "The Monster": [
+      {
+        "Name": "Cataclysmic Slam",
+        "Type": "Attack",
+        "Damage-Type": "Blunt",
+        "Element": "Wind",
+        "Cost": {
+          "Wind": 3,
+          "Fire": 1
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 18,
+        "Coin-Count": 1,
+        "Coin-Power": 8,
+        "Offense-Level": 85,
+        "Attack-Weight": 3,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Quaken",
+              "Potency": 15,
+              "Count": 2
+            },
+            {
+              "Effect": "Devastate"
+            }
+          ],
+          "On-Coin-Win": [
+            {
+              "Effect": "Devastate"
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "I'll crush you to pieces!!!"
+      },
+      {
+        "Name": "Forest Beast",
+        "Type": "Attack",
+        "Damage-Type": "Slash",
+        "Element": "Fire",
+        "Cost": {
+          "Ice": 1,
+          "Fire": 3
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 16,
+        "Coin-Count": 1,
+        "Coin-Power": 8,
+        "Offense-Level": 80,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Injured",
+              "Potency": 2,
+              "Count": 5
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "The Beast's hunger grows uncontrollably... You will make excellent feeding for my satisfaction"
+      },
+      {
+        "Name": "Clockwork Fist",
+        "Type": "Attack",
+        "Damage-Type": "Blunt",
+        "Element": "Void",
+        "Cost": {
+          "Void": 3,
+          "Wind": 2
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 16,
+        "Coin-Count": 1,
+        "Coin-Power": 14,
+        "Offense-Level": 80,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Quaken",
+              "Potency": 5,
+              "Count": 5
+            }
+          ],
+          "On-Coin-Win": [
+            {
+              "Effect": "Devastate"
+            },
+            {
+              "Effect": "Devastate"
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "What truly is time? What controls's it's turning..."
+      },
+      {
+        "Name": "Over-Prime Incineration",
+        "Type": "Attack",
+        "Damage-Type": "Blunt",
+        "Element": "Wind",
+        "Cost": {
+          "Wind": 3,
+          "Fire": 1
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 20,
+        "Coin-Count": 2,
+        "Coin-Power": 8,
+        "Offense-Level": 100,
+        "Attack-Weight": 3,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Burn",
+              "Potency": 9,
+              "Count": 5
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "This forsaken purpose of mine... binds me still"
+      },
+      {
+        "Name": "Of Past",
+        "Type": "Attack",
+        "Damage-Type": "Pierce",
+        "Element": "Fire",
+        "Cost": {
+          "Charm": 1,
+          "Fire": 2
+        },
+        "Morale-Cost": 5,
+        "Base-Power": 17,
+        "Coin-Count": 1,
+        "Coin-Power": 9,
+        "Offense-Level": 70,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Burn",
+              "Potency": 3,
+              "Count": 3
+            }
+          ],
+          "On-Coin-Win": [
+            {
+              "Effect": "Gain",
+              "Status": "Remembrance",
+              "Potency": 1,
+              "Count": 1
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "What's the matter? The light of the past is to bright for you to bear?"
+      },
+      {
+        "Name": "Wave Cutter",
+        "Type": "Attack",
+        "Damage-Type": "Slash",
+        "Element": "Water",
+        "Cost": {
+          "Charm": 1,
+          "Water": 3,
+          "Void": 1
+        },
+        "Morale-Cost": 5,
+        "Base-Power": 13,
+        "Coin-Count": 1,
+        "Coin-Power": 11,
+        "Offense-Level": 95,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Coin-Win": [
+            {
+              "Effect": "Inflict",
+              "Status": "Wash Away",
+              "Potency": 1,
+              "Count": 1
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "My burdens, my struggles, I'll wash it all away with the waves"
+      }
+    ],
+    "Goole": [
+      {
+        "Name": "Forbidden Knowledge",
+        "Type": "Attack",
+        "Damage-Type": "Blunt",
+        "Element": "Earth",
+        "Cost": {
+          "Earth": 3,
+          "Fire": 1
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 12,
+        "Coin-Count": 2,
+        "Coin-Power": 6,
+        "Offense-Level": 80,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Freezing",
+              "Potency": 10,
+              "Count": 2
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "Knowledge... a limiter to my progress"
+      },
+      {
+        "Name": "Unbreakable",
+        "Type": "Attack",
+        "Damage-Type": "Blunt",
+        "Element": "Earth",
+        "Cost": {
+          "Earth": 2,
+          "Fire": 2
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 16,
+        "Coin-Count": 3,
+        "Coin-Power": 3,
+        "Offense-Level": 80,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Use": [
+            {
+              "Effect": "Gain",
+              "Status": "Protection",
+              "Potency": 7,
+              "Count": 1
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "My journey's shall leave me unshaken and unmoved."
+      },
+      {
+        "Name": "The Law",
+        "Type": "Attack",
+        "Damage-Type": "Pierce",
+        "Element": "Fire",
+        "Cost": {
+          "Earth": 3,
+          "Fire": 4
+        },
+        "Morale-Cost": 20,
+        "Base-Power": 10,
+        "Coin-Count": 6,
+        "Coin-Power": 4,
+        "Offense-Level": 130,
+        "Attack-Weight": 3,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Use": [
+            {
+              "Effect": "Inflict",
+              "Status": "Quaken",
+              "Potency": 7,
+              "Count": 2
+            }
+          ],
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Quaken",
+              "Potency": 4,
+              "Count": 1
+            }
+          ],
+          "On-Coin-Win": [
+            {
+              "Effect": "Inflict",
+              "Status": "Quaken",
+              "Potency": 2,
+              "Count": 1
+            }
+          ],
+          "On-Final-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Quaken",
+              "Potency": 1,
+              "Count": 1
+            },
+            {
+              "Effect": "Devastate"
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "In this book lies 6 rules that thou shouldn't ever break. Thou shalln't murder, Thou shalln't steal, Thou shalln't destroy anything, Thou shall pay back your debts in due time, Thou shalln't drive without licence, and Thou shalln't break the rules of an organization. It is a simple set of rules."
+      }
+    ],
+    "Antonia": [
+      {
+        "Name": "Golden Barter",
+        "Type": "Attack",
+        "Damage-Type": "Blunt",
+        "Element": "Ice",
+        "Cost": {
+          "Ice": 2,
+          "Fire": 2
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 10,
+        "Coin-Count": 1,
+        "Coin-Power": 15,
+        "Offense-Level": 80,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Devastate"
+            }
+          ],
+          "On-Coin-Win": [
+            {
+              "Effect": "Heal-Self",
+              "Potency": 30,
+              "Count": 1
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "Huzzah! I've struck gold!"
+      }
+    ],
+    "Romeo": [
+      {
+        "Name": "Frozen Rose Waltz",
+        "Type": "Attack",
+        "Damage-Type": "Pierce",
+        "Element": "Void",
+        "Cost": {
+          "Void": 2,
+          "Charm": 2
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 16,
+        "Coin-Count": 2,
+        "Coin-Power": 7,
+        "Offense-Level": 99,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Gain",
+              "Status": "Current",
+              "Potency": 9,
+              "Count": 3
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "Like they intended me to do with my worthless life..."
+      }
+    ],
+    "Snowball": [
+      {
+        "Name": "Withered Spirit",
+        "Type": "Attack",
+        "Damage-Type": "Blunt",
+        "Element": "Charm",
+        "Cost": {
+          "Charm": 2,
+          "Water": 2
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 20,
+        "Coin-Count": 1,
+        "Coin-Power": 10,
+        "Offense-Level": 95,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Winded",
+              "Potency": 10,
+              "Count": 2
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "Each grain of sand flutters away with the wind, aimless and directionless. Such is life."
+      },
+      {
+        "Name": "Unbreakable",
+        "Type": "Attack",
+        "Damage-Type": "Blunt",
+        "Element": "Earth",
+        "Cost": {
+          "Earth": 2,
+          "Fire": 2
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 14,
+        "Coin-Count": 5,
+        "Coin-Power": 3,
+        "Offense-Level": 80,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Use": [
+            {
+              "Effect": "Gain",
+              "Status": "Protection",
+              "Potency": 5,
+              "Count": 1
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "Am I... Truly Unbreakable now..."
+      }
+    ],
+    "Sherlock": [
+      {
+        "Name": "The Storm Bullet",
+        "Type": "Attack",
+        "Damage-Type": "Pierce",
+        "Element": "Ice",
+        "Cost": {
+          "Ice": 3,
+          "Charm": 1
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 14,
+        "Coin-Count": 1,
+        "Coin-Power": 12,
+        "Offense-Level": 95,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Winded",
+              "Potency": 5,
+              "Count": 2
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "With this bullet, my job is done."
+      },
+      {
+        "Name": "Clockwork Fist",
+        "Type": "Attack",
+        "Damage-Type": "Blunt",
+        "Element": "Void",
+        "Cost": {
+          "Void": 1,
+          "Wind": 4
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 13,
+        "Coin-Count": 1,
+        "Coin-Power": 17,
+        "Offense-Level": 80,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Quaken",
+              "Potency": 7,
+              "Count": 7
+            }
+          ],
+          "On-Coin-Win": [
+            {
+              "Effect": "Devastate"
+            },
+            {
+              "Effect": "Devastate"
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "So it's time that truly has the ability to carry us on."
+      },
+      {
+        "Name": "The Law",
+        "Type": "Attack",
+        "Damage-Type": "Blunt",
+        "Element": "Void",
+        "Cost": {
+          "Void": 4,
+          "Fire": 3
+        },
+        "Morale-Cost": 20,
+        "Base-Power": 10,
+        "Coin-Count": 6,
+        "Coin-Power": 4,
+        "Offense-Level": 120,
+        "Attack-Weight": 3,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Use": [
+            {
+              "Effect": "Inflict",
+              "Status": "Quaken",
+              "Potency": 7,
+              "Count": 2
+            }
+          ],
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Quaken",
+              "Potency": 4,
+              "Count": 1
+            }
+          ],
+          "On-Coin-Win": [
+            {
+              "Effect": "Inflict",
+              "Status": "Quaken",
+              "Potency": 2,
+              "Count": 1
+            }
+          ],
+          "On-Final-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Quaken",
+              "Potency": 1,
+              "Count": 1
+            },
+            {
+              "Effect": "Devastate"
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "I fail to understand what is so hard about going by the book."
+      }
+    ],
+    "George": [
+      {
+        "Name": "Hammer Of Gloom",
+        "Type": "Attack",
+        "Damage-Type": "Blunt",
+        "Element": "Water",
+        "Cost": {
+          "Earth": 1,
+          "Ice": 1,
+          "Void": 2
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 14,
+        "Coin-Count": 1,
+        "Coin-Power": 12,
+        "Offense-Level": 95,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Burn",
+              "Potency": 7,
+              "Count": 2
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "May the sands of time carry the memories of your deceased self forever."
+      },
+      {
+        "Name": "Moonlight Symphony",
+        "Type": "Attack",
+        "Damage-Type": "Pierce",
+        "Element": "Void",
+        "Cost": {
+          "Water": 3
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 11,
+        "Coin-Count": 4,
+        "Coin-Power": 4,
+        "Offense-Level": 80,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Gain",
+              "Status": "Current",
+              "Potency": 6,
+              "Count": 3
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "The rain again... how long will it last this time..."
+      },
+      {
+        "Name": "Coal Crusher",
+        "Type": "Attack",
+        "Damage-Type": "Blunt",
+        "Element": "Earth",
+        "Cost": {
+          "Earth": 2,
+          "Fire": 2
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 18,
+        "Coin-Count": 2,
+        "Coin-Power": 4,
+        "Offense-Level": 100,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Burn",
+              "Potency": 5,
+              "Count": 1
+            },
+            {
+              "Effect": "Inflict",
+              "Status": "Quaken",
+              "Potency": 0,
+              "Count": 3
+            }
+          ],
+          "On-Coin-Win": [
+            {
+              "Effect": "Inflict",
+              "Status": "Burn",
+              "Potency": 5,
+              "Count": 0
+            },
+            {
+              "Effect": "Inflict",
+              "Status": "Quaken",
+              "Potency": 10,
+              "Count": 0
+            },
+            {
+              "Effect": "Devastate"
+            },
+            {
+              "Effect": "Inflict",
+              "Status": "Blazed",
+              "Potency": 1,
+              "Count": 2
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "Heh. Someone's gonna get crushed to bits"
+      }
+    ],
+    "Kyla": [
+      {
+        "Name": "GET OUT OF MY HEAD",
+        "Type": "Attack",
+        "Damage-Type": "Slash",
+        "Element": "Charm",
+        "Cost": {
+          "Fire": 2,
+          "Charm": 2
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 11,
+        "Coin-Count": 1,
+        "Coin-Power": 16,
+        "Offense-Level": 95,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Injured",
+              "Potency": 3,
+              "Count": 2
+            },
+            {
+              "Effect": "Inflict",
+              "Status": "Freezing",
+              "Potency": 9,
+              "Count": 2
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "RUN AWAY! PLEASE DON'T TRY AND STOP ME!!"
+      },
+      {
+        "Name": "100 Degree Flames",
+        "Type": "Attack",
+        "Damage-Type": "Pierce",
+        "Element": "Fire",
+        "Cost": {
+          "Fire": 3,
+          "Ice": 1,
+          "Void": 1
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 17,
+        "Coin-Count": 3,
+        "Coin-Power": 4,
+        "Offense-Level": 90,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": {
+            "Effect": "Inflict",
+            "Status": "Burn",
+            "Potency": 9,
+            "Count": 1
+          },
+          "On-Final-Hit": {
+            "Effect": "Inflict",
+            "Status": "Burn",
+            "Potency": 5,
+            "Count": 0
+          }
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "Witness the power of an 100! Degree! Burn!"
+      }
+    ],
+    "Linda": [
+      {
+        "Name": "Portal to Otherworld",
+        "Type": "Attack",
+        "Damage-Type": "Pierce",
+        "Element": "Water",
+        "Cost": {
+          "Water": 2,
+          "Earth": 2
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 14,
+        "Coin-Count": 1,
+        "Coin-Power": 12,
+        "Offense-Level": 95,
+        "Attack-Weight": 3,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Freezing",
+              "Potency": 10,
+              "Count": 2
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "They're calling... do not make them wait to long"
+      },
+      {
+        "Name": "Betrayal",
+        "Type": "Attack",
+        "Damage-Type": "Slash",
+        "Element": "Earth",
+        "Cost": {
+          "Earth": 3,
+          "Charm": 1
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 14,
+        "Coin-Count": 2,
+        "Coin-Power": 6,
+        "Offense-Level": 95,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Injured",
+              "Potency": 4,
+              "Count": 3
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "My knife'll cut through..."
+      }
+    ],
+    "Tia": [
+      {
+        "Name": "Rewriting",
+        "Type": "Attack",
+        "Damage-Type": "Blunt",
+        "Element": "Water",
+        "Cost": {
+          "Water": 3,
+          "Wind": 2
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 14,
+        "Coin-Count": 1,
+        "Coin-Power": 12,
+        "Offense-Level": 95,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Freezing",
+              "Potency": 5,
+              "Count": 2
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "Overwrite what is not true. What isn't perfect..."
+      },
+      {
+        "Name": "Trench Run",
+        "Type": "Attack",
+        "Damage-Type": "Pierce",
+        "Element": "Void",
+        "Cost": {
+          "Void": 2,
+          "Wind": 1
+        },
+        "Morale-Cost": 10,
+        "Base-Power": 16,
+        "Coin-Count": 1,
+        "Coin-Power": 11,
+        "Offense-Level": 105,
+        "Attack-Weight": 1,
+        "Sanity-Cost": 0,
+        "Effects": {
+          "On-Hit": [
+            {
+              "Effect": "Inflict",
+              "Status": "Injured",
+              "Potency": 2,
+              "Count": 3
+            }
+          ]
+        },
+        "Overuse-Effect": "Stagger",
+        "Quote": "The Gas flows! Move, body, move! Allow my suvival, I beg!"
+      }
+    ]
+  }
+}

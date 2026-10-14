@@ -1,0 +1,123 @@
+{
+  "Extras": {
+    "Joel": {
+      "Name": "Joel",
+      "Class": "Havenus Elite",
+      "Tier": 3,
+      "HP": 843,
+      "Speed-Range": "4-8",
+      "Defense": 78,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Fatal",
+        "Blunt": "Ineff"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Relevant",
+          "Description": "If this unit is dead and all enemies are not defeated, end the battle in a lose for the player"
+        },
+        {
+          "Name": "Delayed Shock Gauntlets",
+          "Description": "When this unit lands a hit on an enemy, they gain 'Static Shock' ((half of damage dealt on attack), 1). At turn end, unit's with 'Static Shock' take damage equal to it's potency, then lose the status"
+        },
+        {
+          "Name": "Blitzing Speed",
+          "Description": "Start's encounter with two Skill Slot's instead of one"
+        }
+      ],
+      "Skills": {
+        "One Two Strikes": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Fire",
+          "Base-Power": 7,
+          "Coin-Count": 2,
+          "Coin-Power": 4,
+          "Offense-Level": 70,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": { 
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 2,
+                "Count": 1
+              }
+            ]
+          }
+        },
+        "Guard": {
+          "Type": "Defense",
+          "Defense-Level": 65,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Gain",
+                "Status": "Guard",
+                "Potency": 35,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A defensive stance that raises the guard."
+        },
+        "Power Strike": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Ice",
+          "Base-Power": 9,
+          "Coin-Count": 1,
+          "Coin-Power": 8,
+          "Offense-Level": 69,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": { 
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 2,
+                "Count": 2
+              }
+            ]
+          }
+        },
+        "100 Percent Voltage": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Water",
+          "Base-Power": 11,
+          "Coin-Count": 4,
+          "Coin-Power": 3,
+          "Offense-Level": 90,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": { 
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 5,
+                "Count": 3
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Static Shock",
+                "Potency": 20,
+                "Count": 2
+              },
+              {
+                "Effect": "Devastate"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

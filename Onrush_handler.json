@@ -1,0 +1,153 @@
+{
+  "Onrushes": {
+    "F Sector Army Onrush": {
+      "starting_enemies": 3,
+      "enemies": [
+        "F Sector Army Solider",
+        "F Sector Army Solider",
+        "F Sector Army Solider",
+        "F Sector Army Solider",
+        "F Sector Army Solider",
+        "F Sector Army Solider",
+        "F Sector Army Solider",
+        "F Sector Army Solider",
+        "F Sector Army Solider",
+        "F Sector Army Solider"
+      ]
+    },
+    "F Sector Army Finale": {
+      "starting_enemies": 3,
+      "enemies": [
+        "F Sector Army Solider",
+        "F Sector Army Solider",
+        "F Sector Army Solider",
+        "F Sector Army Solider",
+        "F Sector Army Solider",
+        "F Sector Army Solider",
+        "F Sector Army Solider",
+        "F Sector Army Solider",
+        "F Sector Army Solider",
+        "F Sector Army Solider",
+        "F Sector Army Commander",
+        "F Sector Army Solider",
+        "F Sector Army Solider"
+      ]
+    },
+    "spectres": {
+      "starting_enemies": 3,
+      "enemies": [
+        "Ghoul",
+        "Ghoul",
+        "Ghoul",
+        "Ghoul",
+        "Ghoul",
+        "Ghoul",
+        "Ghoul",
+        "Ghoul"
+      ]
+    },
+    "Ten-coloured Tussle": {
+      "starting_enemies": 1,
+      "enemies": [
+        "Lenuff - Pyric Offense Captain",
+        "Banquo - The Ghost Long Forgotten",
+        "Ross - Noble Sword Artist",
+        "Malcolm - Noble Sword Artist",
+        "Infernal Over-xtinguisher - Arnold",
+        "WOTB Path Of Wounding Commander",
+        "F Sector Army Commander",
+        "Macbeth - The 1st Harbinger Of Flames"
+      ]
+    },
+    "The bus full of thugs": {
+      "starting_enemies": 2,
+      "enemies": [
+        "Knife Thug",
+        "Knife Thug",
+        "Knife Thug",
+        "Knife Thug",
+        "Knife Thug",
+        "Knife Thug",
+        "Knife Thug",
+        "Knife Thug",
+        "Knife Thug",
+        "Bat Thug",
+        "Bat Thug",
+        "Bat Thug",
+        "Bat Thug",
+        "Bat Thug",
+        "Bat Thug",
+        "Bat Thug"
+      ]
+    },
+    "Pirates": {
+      "starting_enemies": 4,
+      "enemies": [
+        "Cutlass Pirate",
+        "Spear Pirate",
+        "Cutlass Pirate",
+        "Spear Pirate",
+        "Cutlass Pirate",
+        "Spear Pirate",
+        "Cutlass Pirate",
+        "Spear Pirate",
+        "Cutlass Pirate",
+        "Spear Pirate",
+        "Cutlass Pirate",
+        "Spear Pirate",
+        "Cutlass Pirate",
+        "Spear Pirate",
+        "Cutlass Pirate",
+        "Spear Pirate",
+        "Cutlass Pirate",
+        "Spear Pirate",
+        "Cutlass Pirate",
+        "Spear Pirate",
+        "Cutlass Pirate",
+        "Spear Pirate",
+        "Cutlass Pirate",
+        "Spear Pirate",
+        "Cutlass Pirate",
+        "Spear Pirate",
+        "Cutlass Pirate",
+        "Spear Pirate",
+        "Pirate Captain"
+      ]
+    },
+    "Birling and Co. Ship": {
+      "starting_enemies": 3,
+      "enemies": [
+        "Birling and Co. Sea Farers",
+        "Birling and Co. Sea Farers",
+        "Birling and Co. Sea Farers",
+        "Birling and Co. Sea Farers",
+        "Birling and Co. Sea Farers",
+        "Birling and Co. Sea Farers",
+        "Birling and Co. Sea Farers",
+        "Birling and Co. Sea Farers"
+      ]
+    },
+    "Chain-Shopers": {
+      "starting_enemies": 3,
+      "enemies": [
+        "Fanatical Chain-Shoper",
+        "Fanatical Chain-Shoper",
+        "Fanatical Chain-Shoper",
+        "Fanatical Chain-Shoper",
+        "Careless Chain-Shoper",
+        "Careless Chain-Shoper",
+        "Careless Chain-Shoper",
+        "Careless Chain-Shoper",
+        "Careless Chain-Shoper",
+        "Fanatical Chain-Shoper",
+        "Fanatical Chain-Shoper",
+        "Fanatical Chain-Shoper",
+        "Careless Chain-Shoper",
+        "Careless Chain-Shoper",
+        "Careless Chain-Shoper",
+        "Careless Chain-Shoper",
+        "Careless Chain-Shoper"
+      ]
+    }
+  }
+}
