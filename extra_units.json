@@ -1,0 +1,295 @@
+{
+  "Extras": {
+    "Joel": {
+      "Name": "Joel",
+      "Class": "Havenus Elite",
+      "Tier": 3,
+      "HP": 843,
+      "Speed-Range": "4-8",
+      "Defense": 78,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Fatal",
+        "Blunt": "Ineff"
+      },
+      "Special-Effects": [
+        {
+          "Name": "Relevant",
+          "Description": "If this unit is dead and all enemies are not defeated, end the battle in a lose for the player"
+        },
+        {
+          "Name": "Delayed Shock Gauntlets",
+          "Description": "When this unit lands a hit on an enemy, they gain 'Static Shock' ((half of damage dealt on attack), 1). At turn end, unit's with 'Static Shock' take damage equal to it's potency, then lose the status"
+        },
+        {
+          "Name": "Blitzing Speed",
+          "Description": "Start's encounter with two Skill Slot's instead of one"
+        }
+      ],
+      "Skills": {
+        "One Two Strikes": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Fire",
+          "Base-Power": 7,
+          "Coin-Count": 2,
+          "Coin-Power": 4,
+          "Offense-Level": 70,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": { 
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 2,
+                "Count": 1
+              }
+            ]
+          }
+        },
+        "Guard": {
+          "Type": "Counter",
+          "Damage-Type": "Blunt",
+          "Element": "Fire",
+          "Base-Power": 1,
+          "Coin-Count": 1,
+          "Coin-Power": 1,
+          "Offense-Level": 70,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Use": [
+              {
+                "Effect": "Gain",
+                "Status": "Guard",
+                "Potency": 35,
+                "Count": 1
+              }
+            ]
+          },
+          "Flavor": "A defensive stance that raises the guard."
+        },
+        "Power Strike": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Ice",
+          "Base-Power": 9,
+          "Coin-Count": 1,
+          "Coin-Power": 8,
+          "Offense-Level": 69,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": { 
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 2,
+                "Count": 2
+              }
+            ]
+          }
+        },
+        "100 Percent Voltage": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Water",
+          "Base-Power": 11,
+          "Coin-Count": 4,
+          "Coin-Power": 3,
+          "Offense-Level": 90,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": { 
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Quaken",
+                "Potency": 5,
+                "Count": 3
+              }
+            ],
+            "On-Coin-Win": [
+              {
+                "Effect": "Inflict",
+                "Status": "Static Shock",
+                "Potency": 20,
+                "Count": 2
+              },
+              {
+                "Effect": "Devastate"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Afine": {
+      "Name": "Afine",
+      "Class": "Divinus",
+      "Tier": 3,
+      "HP": 987,
+      "Speed-Range": "1-4",
+      "Defense": 65,
+      "Resistances": {
+        "Slash": "Normal",
+        "Pierce": "Ineff",
+        "Blunt": "Fatal"
+      },
+      "deformality": "no",
+      "Special-Effects": [
+        {
+          "Name": "Burning Heartbreak Arrows",
+          "Description": "At encounter start, Inflict 'Burning Arrow' (1, 1) to all enemies and gain 'Cupids Bow - Heartbrake' (1, 1). While unit's have 'Burning Arrow', Pierce damage type Skills are filtered out of this units skill list. Units that have 'Burn' that would trigger at turn end will instead lose 'Burning Arrow' to not lose 'Burn' Count when 'Burn' triggers; when, this happens, this unit gains 'Floating Arrows' (0, 1). While this unit has 'Floating Arrows', Pierce skills are filtered back in again. When this unit lands a Pierce attack, Lose 1 count of 'Floating arrows' to inflict 'Burning Arrow' to target. If this unit would use a Pierce attack this turn but does not have any 'Floating Arrows' to lose, the Skill is skipped."
+        },
+        {
+          "Name": "Fiery Power",
+          "Description": "While this unit has 'Floating Arrow', gain 'Pierce Damage Up' (3, 1) at turn start."
+        },
+        {
+          "Name": "Relevant",
+          "Description": "If this unit is dead and all enemies are not defeated, end the battle in a lose for the player"
+        },
+        {
+          "Name": "Blitzing Speed",
+          "Description": "Start's encounter with two Skill Slot's instead of one"
+        }
+      ],
+      "Skills": {
+        "Fiery Bow Combat": {
+          "Type": "Attack",
+          "Damage-Type": "Blunt",
+          "Element": "Fire",
+          "Base-Power": 4,
+          "Coin-Count": 3,
+          "Coin-Power": 2,
+          "Offense-Level": 52,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 2,
+                "Count": 1
+              }
+            ]
+           },
+           "Flavor": "\"A powerful strike.\""
+        },
+        "Burning Strike - C": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Fire",
+          "Base-Power": 6,
+          "Coin-Count": 1,
+          "Coin-Power": 5,
+          "Offense-Level": 56,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 2,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A powerful strike.\""
+        },
+        "Ember Enactment": {
+          "Type": "Attack",
+          "Damage-Type": "Slash",
+          "Element": "Fire",
+          "Base-Power": 10,
+          "Coin-Count": 3,
+          "Coin-Power": 2,
+          "Offense-Level": 60,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 2,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A powerful strike.\""
+        },
+        "Firing": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Fire",
+          "Base-Power": 6,
+          "Coin-Count": 1,
+          "Coin-Power": 5,
+          "Offense-Level": 60,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 2,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A powerful strike.\""
+        },
+        "Fly through the Air": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Fire",
+          "Base-Power": 10,
+          "Coin-Count": 2,
+          "Coin-Power": 3,
+          "Offense-Level": 60,
+          "Attack-Weight": 1,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 2,
+                "Count": 2
+              }
+            ]
+           },
+           "Flavor": "\"A powerful strike.\""
+        },
+        "Soaring Arrows Song": {
+          "Type": "Attack",
+          "Damage-Type": "Pierce",
+          "Element": "Fire",
+          "Base-Power": 14,
+          "Coin-Count": 4,
+          "Coin-Power": 2,
+          "Offense-Level": 80,
+          "Attack-Weight": 3,
+          "Sanity-Cost": 0,
+          "Effects": {
+            "On-Hit": [
+              {
+                "Effect": "Inflict",
+                "Status": "Burn",
+                "Potency": 3,
+                "Count": 3
+              }
+            ]
+           },
+           "Flavor": "\"A powerful strike.\""
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Shop": {
+    "realiGear": [
+      "Lucky Charm",
+      "Health Amulet",
+      "Speed Boots",
+      "Claws Of Wood",
+      "Umbrella To Wash Away Guilt",
+      "Trunk Body",
+      "Power Ring",
+      "Defense Shield",
+      "Lone Clouds",
+      "Breifcase Full Of Bullets",
+      "Elemental Cloak",
+      "The Cape of the Flame Conqueror"
+    ],
+    "healing": {
+      "cost_per_hp": 2,
+      "max_heal": 200
+    },
+    "revival": {
+      "cost": 200
+    }
+  }
+}

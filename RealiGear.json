@@ -1,0 +1,64 @@
+{
+  "RealiGear": {
+    "Lucky Charm": {
+      "Name": "Lucky Charm",
+      "Tier": 1,
+      "Description": "Reduces shop prices by 10%."
+    },
+    "Health Amulet": {
+      "Name": "Health Amulet",
+      "Tier": 1,
+      "Description": "Increases max HP by 50."
+    },
+    "Speed Boots": {
+      "Name": "Speed Boots",
+      "Tier": 1,
+      "Description": "Increases speed range by 1."
+    },
+    "Claws Of Wood": {
+      "Name": "Claws Of Wood",
+      "Tier": 1,
+      "Description": "Deal 9% more damage to targets with 'Injured'"
+    },
+    "Trunk Body": {
+      "Name": "Trunk Body",
+      "Tier": 2,
+      "Description": "The first unit in the order of the player's team takes 40% less damage from attacks that are not Fire element attacks and take 30% more damage from Fire element attacks"
+    },
+    "Umbrella To Wash Away Guilt": {
+      "Name": "Umbrella To Wash Away Guilt",
+      "Tier": 1,
+      "Description": "Gain 'Current' (1, 2) every turn end"
+    },
+    "Power Ring": {
+      "Name": "Power Ring",
+      "Tier": 2,
+      "Description": "Increases attack power by 20%."
+    },
+    "Defense Shield": {
+      "Name": "Defense Shield",
+      "Tier": 2,
+      "Description": "Increases defense by 10."
+    },
+    "Lone Clouds": {
+      "Name": "Lone Clouds",
+      "Tier": 2,
+      "Description": "Inflict 1 'Freezing' potency on hit"
+    },
+    "Breifcase Full Of Bullets": {
+      "Name": "Breifcase Full Of Bullets",
+      "Tier": 2,
+      "Description": "All unit's with Bullet statuses gain the status 'Reload Case' (0, 1) at encounter start. When going under half of their starting Bullet potency, lose one count of 'Reload Case' to go back to their starting max Bullet potency. Deal 65% more damage when spending Bullet status potency"
+    },
+    "Elemental Cloak": {
+      "Name": "Elemental Cloak",
+      "Tier": 2,
+      "Description": "Grants resistance to one element of choice."
+    },
+    "The Cape of the Flame Conqueror": {
+      "Name": "The Cape of the Flame Conqueror",
+      "Tier": 3,
+      "Description": "All enemy units gain 'Burn' (3, 3) every turn start"
+    }
+  }
+}

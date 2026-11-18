@@ -1,0 +1,84 @@
+{
+  "Pools": {
+    "simple_traps": [
+      {"occurrence": "Spike Trap", "amount": 1},
+      {"occurrence": "Poison Gas", "amount": 1}
+    ],
+    "elemental_checks": [
+      {"occurrence": "Fire Check", "amount": 1},
+      {"occurrence": "Ice Check", "amount": 1}
+    ],
+    "complex_traps": [
+      {"occurrence": "Hydra Lair", "amount": 1},
+      {"occurrence": "Chimera Den", "amount": 1}
+    ],
+    "final_challenges": [
+      {"occurrence": "Dragon's Hoard", "amount": 1}
+    ],
+    "Spirited Shogun": [
+      {"occurrence": "Enchanted Dojo", "amount": 1}
+    ],
+    "Coal Giant": [
+      {"occurrence": "Coal Cave", "amount": 1}
+    ],
+    "Pyro Lord": [
+      {"occurrence": "Land On The Sun", "amount": 1}
+    ]
+  },
+  "Occurrences": {
+    "Spike Trap": {
+      "description": "Take 50 damage.",
+      "effect": "damage",
+      "value": 50
+    },
+    "Poison Gas": {
+      "description": "Inflict Poison (3, 2).",
+      "effect": "status",
+      "status": "Poison",
+      "potency": 3,
+      "count": 2
+    },
+    "Fire Check": {
+      "description": "Elemental check for Fire. Threshold 10, morale roll.",
+      "effect": "check",
+      "element": "Fire",
+      "threshold": 10
+    },
+    "Ice Check": {
+      "description": "Elemental check for Ice. Threshold 11, morale roll.",
+      "effect": "check",
+      "element": "Ice",
+      "threshold": 11
+    },
+    "Hydra Lair": {
+      "description": "Encounter the Hydra deformality.",
+      "effect": "deformality",
+      "enemy": "The Wise, Wild, and Wicked Headed man"
+    },
+    "Chimera Den": {
+      "description": "Encounter the Chimera deformality.",
+      "effect": "deformality",
+      "enemy": "Flare Lion"
+    },
+    "Dragon's Hoard": {
+      "description": "Encounter the Ancient Dragon deformality.",
+      "effect": "deformality",
+      "enemy": "Infernal Dragon"
+    },
+    "Enchanted Dojo": {
+      "description": "Encounter the Shogun deformality.",
+      "effect": "deformality",
+      "enemy": "Spirited Shogun"
+    },
+    "Coal Cave": {
+      "description": "Encounter the Coal Giant deformality.",
+      "effect": "deformality",
+      "enemy": "Coal Giant"
+    },
+    "Land On The Sun": {
+      "description": "Encounter the Pyro Lord deformality.",
+      "effect": "deformality",
+      "enemy": "Pyro Lord"
+    }
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "keys": 30300,
+  "cash": 6875,
+  "owned_gear": [],
+  "unlocked_combatants": [
+    "Macduff",
+    "Racheal",
+    "The Monster",
+    "Goole",
+    "Antonia",
+    "Romeo",
+    "Snowball",
+    "Sherlock",
+    "Kyla",
+    "George",
+    "Linda",
+    "Tia",
+    "A Sector Assassin Antonia",
+    "Suspicious Hospital Staff Tia",
+    "WOTB Path Of Expertise Goole",
+    "F Sector Army Archer Sherlock",
+    "L Sector Maintainance Tia",
+    "E Sector Defense Squad Racheal",
+    "Illumina Samurai Student Sherlock",
+    "W Sector Class 4 Supressor George",
+    "Quantum Corp. Researcher Level 5 Tia",
+    "Quantum Corp. Researcher Level 5 George",
+    "L Sector Maintainance Romeo",
+    "Guillevien Branch F Commander Racheal",
+    "F Sector Army General Racheal",
+    "Den Dwellers Romeo",
+    "Bat Thug Romeo",
+    "Alteration :: Lord Of The Flies Racheal",
+    "Youth Class Extinguisher Romeo",
+    "L Sector Detective Kyla",
+    "L Sector Detective Inspector Linda",
+    "E Sector Defense Squad Tia",
+    "E Sector Defense Squad Macduff",
+    "Knife Thug Sherlock",
+    "Ghoul Sherlock",
+    "Skull and Bones Pirate Romeo",
+    "F Sector Army Health Care Agent Kyla",
+    "Illumina Samurai Student Kyla",
+    "Pyric Shield Antonia",
+    "Pyric Offense Captain Tia",
+    "L Sector Dectective Goole",
+    "Sailor Macduff",
+    "Skull and Bones Pirate Racheal",
+    "A Sector Assassination Director Snowball",
+    "Skull and Bones Pirate Captain George",
+    "F Sector Army Solider Macduff",
+    "Pyric Enforcer Racheal",
+    "A Sector Assassin Romeo",
+    "The 1st Harbinger - Flame Lord Macduff",
+    "F Sector Army Solider George",
+    "Infernal Over-xtinguisher Macduff",
+    "Birling and Co. Sea Farer Linda"
+  ],
+  "unlocked_limbursts": [
+    {
+      "Character": "Macduff",
+      "Name": "Sinner's Sword"
+    },
+    {
+      "Character": "Racheal",
+      "Name": "Lost One's Spear"
+    },
+    {
+      "Character": "The Monster",
+      "Name": "Cataclysmic Slam"
+    },
+    {
+      "Character": "Goole",
+      "Name": "Silence Of Solidarity"
+    },
+    {
+      "Character": "Antonia",
+      "Name": "Golden Barter"
+    },
+    {
+      "Character": "Romeo",
+      "Name": "Frost Mist Waltz"
+    },
+    {
+      "Character": "Snowball",
+      "Name": "Withered Spirit"
+    },
+    {
+      "Character": "Sherlock",
+      "Name": "Bullet of Expertise"
+    },
+    {
+      "Character": "George",
+      "Name": "Hammer Of Gloom"
+    },
+    {
+      "Character": "Kyla",
+      "Name": "Mental Distress"
+    },
+    {
+      "Character": "Linda",
+      "Name": "Delusional Dreams"
+    },
+    {
+      "Character": "Tia",
+      "Name": "Rewriting"
+    },
+    {
+      "Character": "The Monster",
+      "Name": "Wave Cutter"
+    },
+    {
+      "Character": "Sherlock",
+      "Name": "The Law"
+    },
+    {
+      "Character": "Kyla",
+      "Name": "100 Degree Flames"
+    },
+    {
+      "Character": "Tia",
+      "Name": "Trench Run"
+    }
+  ],
+  "planes": {
+    "Macduff": 140,
+    "Racheal": 296,
+    "The Monster": 54,
+    "Goole": 268,
+    "Antonia": 257,
+    "Romeo": 315,
+    "Snowball": 298,
+    "Sherlock": 17,
+    "Kyla": 18,
+    "George": 244,
+    "Linda": 304,
+    "Tia": 38
+  },
+  "unlocked_chapters": [
+    "Story Mode 1",
+    "Story Branch 1.1",
+    "Story Branch 1.2",
+    "Story Mode 2"
+  ],
+  "completed_chapters": [
+    "Story Mode 1",
+    "Story Branch 1.1",
+    "Story Branch 1.2"
+  ],
+  "active_story": {
+    "floor": "Story Mode 2",
+    "section_index": 3,
+    "team": [
+      {
+        "key": "Infernal Over-xtinguisher Macduff",
+        "hp": 304,
+        "max_hp": 304,
+        "morale": 100,
+        "alive": true,
+        "defense": 70,
+        "speed_range": "3-5",
+        "resistances": {
+          "Slash": "Fatal",
+          "Pierce": "Normal",
+          "Blunt": "Ineff"
+        },
+        "gear_bonuses": {},
+        "statuses": {},
+        "skill_slots": 1,
+        "limit_burst": "Sinner's Sword"
+      },
+      {
+        "key": "Youth Class Extinguisher Romeo",
+        "hp": 245,
+        "max_hp": 245,
+        "morale": 80,
+        "alive": true,
+        "defense": 65,
+        "speed_range": "2-5",
+        "resistances": {
+          "Slash": "Normal",
+          "Pierce": "Ineff",
+          "Blunt": "Fatal"
+        },
+        "gear_bonuses": {},
+        "statuses": {},
+        "skill_slots": 1,
+        "limit_burst": "Frost Mist Waltz"
+      },
+      {
+        "key": "E Sector Defense Squad Racheal",
+        "hp": 219,
+        "max_hp": 219,
+        "morale": 90,
+        "alive": true,
+        "defense": 56,
+        "speed_range": "3-7",
+        "resistances": {
+          "Slash": "Fatal",
+          "Pierce": "Normal",
+          "Blunt": "Ineff"
+        },
+        "gear_bonuses": {},
+        "statuses": {},
+        "skill_slots": 1,
+        "limit_burst": "Lost One's Spear"
+      },
+      {
+        "key": "E Sector Defense Squad Tia",
+        "hp": 184,
+        "max_hp": 184,
+        "morale": 80,
+        "alive": true,
+        "defense": 56,
+        "speed_range": "2-4",
+        "resistances": {
+          "Slash": "Fatal",
+          "Pierce": "Normal",
+          "Blunt": "Ineff"
+        },
+        "gear_bonuses": {},
+        "statuses": {},
+        "skill_slots": 1,
+        "limit_burst": "Trench Run"
+      }
+    ]
+  },
+  "portrait_counters": {
+    "everchanging": 200,
+    "class": 162,
+    "remembrance": 0
+  },
+  "portraits": {
+    "everchanging": {
+      "label": "Everchanging",
+      "rate_up": [
+        "Infernal Over-xtinguisher Macduff"
+      ]
+    },
+    "class": {
+      "label": "F Sector",
+      "rate_up": [
+        "F Sector Army Solider Macduff",
+        "F Sector Army Solider George",
+        "F Sector Army Archer Sherlock",
+        "F Sector Army Charging Force Antonia",
+        "F Sector Army Health Care Agent Kyla",
+        "F Sector Army General Racheal",
+        "F Sector Army Super Solider Class 3 Goole"
+      ]
+    }
+  }
+}
